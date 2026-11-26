@@ -1,7 +1,12 @@
 #!/bin/bash
 set -e
-WLAN_IF=${1:-wlp0s20f3} # WiFi AP interface
-WAN_IF=${2:-usb0}       # Upstream usb tethering interface
+CONFIG_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [ -f "$CONFIG_DIR/general.conf" ]; then
+    source "$CONFIG_DIR/general.conf"
+fi
+# Still accept input in arguments, but else use one from general.conf
+WLAN_IF=${1:-${WLAN_IF:-wlp0s20f3}} # WiFi AP interface
+WAN_IF=${2:-${WAN_IF:-usb0}}       # Upstream usb tethering interface
 
 # Set WiFi AP interface to unmanaged so we bring our own configuration to it
 nmcli device set "$WLAN_IF" managed no 2>/dev/null || true

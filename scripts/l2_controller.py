@@ -1,12 +1,28 @@
 #!/usr/bin/env python3
-import subprocess, time, re, sys, csv
+import subprocess, time, re, sys, csv, os
 
-WLAN_IF = sys.argv[1] if len(sys.argv) > 1 else "wlp0s20f3"
-LOG_FILE = sys.argv[2] if len(sys.argv) > 2 else "l2_controller_log.csv"
-MAC_A = "38:68:93:37:85:ed"
-MAC_B = "10:63:c8:c1:5a:81"
-IP_A = "192.168.50.11"
-IP_B = "192.168.50.12"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+CONFIG_FILE = os.path.join(BASE_DIR, "config", "general.conf")
+
+def load_config(path):
+    conf = {}
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    conf[k.strip()] = v.strip().strip('"').strip("'")
+    return conf
+
+config = load_config(CONFIG_FILE)
+
+WLAN_IF = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].endswith(".csv") else config.get("WLAN_IF", "wlp0s20f3")
+LOG_FILE = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].endswith(".csv") else (sys.argv[2] if len(sys.argv) > 2 else "l2_controller_log.csv")
+MAC_A = config.get("CLIENT_A_MAC", "38:68:93:37:85:ed").lower()
+MAC_B = config.get("CLIENT_B_MAC", "10:63:c8:c1:5a:81").lower()
+IP_A = config.get("CLIENT_A_IP", "192.168.50.11")
+IP_B = config.get("CLIENT_B_IP", "192.168.50.12")
 
 ALPHA = 0.3
 FLOOR_MBPS = 5.0

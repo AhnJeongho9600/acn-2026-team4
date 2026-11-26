@@ -1,11 +1,22 @@
 #!/bin/bash
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+if [ -f "$BASE_DIR/config/general.conf" ]; then
+    source "$BASE_DIR/config/general.conf"
+fi
+
 SESSION_DIR=$1
-WLAN_IF=${2:-wlp0s20f3}
-DURATION=${3:-65}
+WLAN_IF=${WLAN_IF:-wlp0s20f3}
 
 if [ -z "$SESSION_DIR" ]; then
-  echo "Usage: $0 <session_dir> [wlan_if] [duration_sec]"
+  echo "Usage: $0 <session_dir> [duration_sec]"
   exit 1
+fi
+
+if [ -n "$2" ] && ! [[ "$2" =~ ^[0-9]+$ ]]; then
+  WLAN_IF=$2
+  DURATION=${3:-65}
+else
+  DURATION=${2:-65}
 fi
 
 mkdir -p "$SESSION_DIR"
