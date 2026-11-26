@@ -15,12 +15,14 @@ if [ -f /tmp/hostapd_ap.pid ]; then
     rm -f /tmp/hostapd_ap.pid
 fi
 sudo pkill hostapd 2>/dev/null || true
+rm -f /tmp/hostapd_ap.conf
 
 if [ -f /tmp/dnsmasq_ap.pid ]; then
     sudo kill "$(cat /tmp/dnsmasq_ap.pid)" 2>/dev/null || true
     rm -f /tmp/dnsmasq_ap.pid
 fi
 sudo pkill dnsmasq 2>/dev/null || true
+rm -f /tmp/dnsmasq_ap.conf
 
 echo "[2/5] Stopping iperf3 and HTTP servers..."
 pkill iperf3 2>/dev/null || true

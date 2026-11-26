@@ -16,7 +16,16 @@ sudo "$BASE_DIR/config/nat_setup.sh" "$WLAN_IF" "$WAN_IF"
 echo "[2/5] Starting dnsmasq..."
 # Kill existing dnsmasq process before launching new one
 sudo pkill dnsmasq 2>/dev/null || true
-sudo dnsmasq -C "$BASE_DIR/config/dnsmasq.conf" --pid-file=/tmp/dnsmasq_ap.pid
+# Generate runtime configuration for dnsmasq with dynamic interface and client hosts
+grep -v -E "^interface=|^dhcp-host=" "$BASE_DIR/config/dnsmasq.conf" > /tmp/dnsmasq_ap.conf
+echo "interface=$WLAN_IF" >> /tmp/dnsmasq_ap.conf
+if [ -n "$CLIENT_A_MAC" ] && [ -n "$CLIENT_A_IP" ]; then
+    echo "dhcp-host=$CLIENT_A_MAC,ClientA,$CLIENT_A_IP" >> /tmp/dnsmasq_ap.conf
+fi
+if [ -n "$CLIENT_B_MAC" ] && [ -n "$CLIENT_B_IP" ]; then
+    echo "dhcp-host=$CLIENT_B_MAC,ClientB,$CLIENT_B_IP" >> /tmp/dnsmasq_ap.conf
+fi
+sudo dnsmasq -C /tmp/dnsmasq_ap.conf --pid-file=/tmp/dnsmasq_ap.pid
 
 echo "[3/5] Starting iperf3 and HTTP servers..."
 # Kill existing iperf3
@@ -31,6 +40,8 @@ python3 -m http.server 8080 --directory /tmp/http_root >/tmp/http_server.log 2>&
 
 echo "[4/5] Starting hostapd..."
 sudo pkill hostapd 2>/dev/null || true
-sudo hostapd -B "$BASE_DIR/config/hostapd.conf" -P /tmp/hostapd_ap.pid
+# Generate runtime configuration for hostapd with dynamic interface
+sed "s/^interface=.*/interface=$WLAN_IF/" "$BASE_DIR/config/hostapd.conf" > /tmp/hostapd_ap.conf
+sudo hostapd -B /tmp/hostapd_ap.conf -P /tmp/hostapd_ap.pid
 
 echo "[5/5] 5-layer AP active on $WLAN_IF (IP: 192.168.50.1, WAN: $WAN_IF)"
