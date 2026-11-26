@@ -1,0 +1,8 @@
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 003: ID 062a:4108 MosArt Semiconductor Corp. 2.4G Wireless Mouse
+Bus 003 Device 002: ID 13d3:540a IMC Networks Integrated Camera
+Bus 003 Device 004: ID 8087:0026 Intel Corp. AX201 Bluetooth
+Bus 003 Device 018: ID 18d1:4eeb Google Inc. Pixel 7
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
