@@ -76,6 +76,13 @@ for ((i=1; i<=DURATION; i++)); do
     tc -s qdisc show dev "$WLAN_IF"
   } >> "$SESSION_DIR/tc_qdisc.txt"
 
+  # Per-class HTB counters (L-2 controller on): a rising "overlimits" on 1:20 shows B's cap is binding.
+  # Empty while the interface has no classful qdisc (controller off).
+  {
+    echo "=== TIMESTAMP $TS ==="
+    tc -s class show dev "$WLAN_IF"
+  } >> "$SESSION_DIR/tc_class.txt"
+
   sleep 1
 done
 

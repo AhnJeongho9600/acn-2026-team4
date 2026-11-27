@@ -1,0 +1,340 @@
+=== TIMESTAMP 2026-11-28T04:12:47.315 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:48.337 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:49.359 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:50.381 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:51.440 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 66 bytes 1 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:52.462 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 659904 bytes 456 pkt (dropped 0, overlimits 81 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:53.486 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 2574032 bytes 1728 pkt (dropped 0, overlimits 234 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:54.512 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 4559264 bytes 3046 pkt (dropped 0, overlimits 387 requeues 0) 
+ backlog 54504b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:55.537 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 6072736 bytes 4057 pkt (dropped 0, overlimits 511 requeues 0) 
+ backlog 4542b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:56.561 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 7654974 bytes 5112 pkt (dropped 0, overlimits 663 requeues 0) 
+ backlog 52990b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:57.585 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 9003058 bytes 6006 pkt (dropped 0, overlimits 805 requeues 0) 
+ backlog 63588b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:58.609 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 10650560 bytes 7099 pkt (dropped 0, overlimits 962 requeues 0) 
+ backlog 68Kb 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:12:59.634 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 12307038 bytes 8196 pkt (dropped 0, overlimits 1125 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:00.658 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 14984692 bytes 9985 pkt (dropped 0, overlimits 1406 requeues 0) 
+ backlog 136260b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:01.682 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 17466269 bytes 11639 pkt (dropped 0, overlimits 1636 requeues 0) 
+ backlog 80242b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:02.704 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 20141025 bytes 13425 pkt (dropped 0, overlimits 1862 requeues 0) 
+ backlog 136260b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:03.727 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 23134373 bytes 15423 pkt (dropped 0, overlimits 2098 requeues 0) 
+ backlog 59046b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:04.748 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 26073791 bytes 17384 pkt (dropped 0, overlimits 2338 requeues 0) 
+ backlog 66616b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:05.772 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 28614931 bytes 19074 pkt (dropped 0, overlimits 2536 requeues 0) 
+ backlog 68130b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:06.796 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 30947043 bytes 20624 pkt (dropped 0, overlimits 2711 requeues 0) 
+ backlog 130204b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:07.819 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 33190857 bytes 22115 pkt (dropped 0, overlimits 2887 requeues 0) 
+ backlog 80242b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:08.844 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 35632196 bytes 23753 pkt (dropped 0, overlimits 3093 requeues 0) 
+ backlog 68130b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:09.866 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 38101288 bytes 25399 pkt (dropped 0, overlimits 3283 requeues 0) 
+ backlog 68130b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:10.890 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 40345618 bytes 26892 pkt (dropped 0, overlimits 3463 requeues 0) 
+ backlog 22710b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:11.911 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 42626296 bytes 28409 pkt (dropped 0, overlimits 3662 requeues 0) 
+ backlog 75700b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:12.935 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 44873774 bytes 29906 pkt (dropped 0, overlimits 3859 requeues 0) 
+ backlog 133232b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:13.958 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 47428228 bytes 31607 pkt (dropped 0, overlimits 4064 requeues 0) 
+ backlog 57532b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:14.980 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 49498880 bytes 32985 pkt (dropped 0, overlimits 4236 requeues 0) 
+ backlog 57532b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:16.004 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 51648880 bytes 34415 pkt (dropped 0, overlimits 4423 requeues 0) 
+ backlog 68130b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:17.025 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 53066620 bytes 35355 pkt (dropped 0, overlimits 4554 requeues 0) 
+ backlog 71158b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:18.049 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 55197046 bytes 36774 pkt (dropped 0, overlimits 4752 requeues 0) 
+ backlog 51476b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:19.073 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 56825028 bytes 37857 pkt (dropped 0, overlimits 4883 requeues 0) 
+ backlog 84784b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:20.096 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 58463554 bytes 38946 pkt (dropped 0, overlimits 5013 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:21.117 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 60458032 bytes 40273 pkt (dropped 0, overlimits 5188 requeues 0) 
+ backlog 71158b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:22.141 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 62964267 bytes 41944 pkt (dropped 0, overlimits 5395 requeues 0) 
+ backlog 62074b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:23.169 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 64883430 bytes 43221 pkt (dropped 0, overlimits 5563 requeues 0) 
+ backlog 51476b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:24.191 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 67099372 bytes 44694 pkt (dropped 0, overlimits 5749 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:25.215 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 69336156 bytes 46182 pkt (dropped 0, overlimits 5939 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:26.242 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 71341178 bytes 47515 pkt (dropped 0, overlimits 6099 requeues 0) 
+ backlog 54504b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:27.264 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 73670454 bytes 49067 pkt (dropped 0, overlimits 6290 requeues 0) 
+ backlog 49962b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:28.286 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 76166282 bytes 50729 pkt (dropped 0, overlimits 6490 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:29.309 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 78415112 bytes 52224 pkt (dropped 0, overlimits 6666 requeues 0) 
+ backlog 45420b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:30.334 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 80751916 bytes 53780 pkt (dropped 0, overlimits 6866 requeues 0) 
+ backlog 66616b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:31.357 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 83132626 bytes 55365 pkt (dropped 0, overlimits 7085 requeues 0) 
+ backlog 72672b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:32.381 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 85287816 bytes 56802 pkt (dropped 0, overlimits 7267 requeues 0) 
+ backlog 27252b 7p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:33.404 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 87322806 bytes 58157 pkt (dropped 0, overlimits 7478 requeues 0) 
+ backlog 45420b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:34.426 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 89729362 bytes 59761 pkt (dropped 0, overlimits 7726 requeues 0) 
+ backlog 36336b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:35.448 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 92155371 bytes 61409 pkt (dropped 0, overlimits 8007 requeues 0) 
+ backlog 30280b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:36.471 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 94299434 bytes 62841 pkt (dropped 0, overlimits 8207 requeues 0) 
+ backlog 62074b 3p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:37.494 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 96992286 bytes 64637 pkt (dropped 0, overlimits 8471 requeues 0) 
+ backlog 33308b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:38.518 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 99456374 bytes 66279 pkt (dropped 0, overlimits 8708 requeues 0) 
+ backlog 22710b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:39.544 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 101652364 bytes 67742 pkt (dropped 0, overlimits 8906 requeues 0) 
+ backlog 27252b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:40.598 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 104097671 bytes 69396 pkt (dropped 0, overlimits 9142 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:41.620 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 106298651 bytes 70870 pkt (dropped 0, overlimits 9333 requeues 0) 
+ backlog 66616b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:42.644 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 108850489 bytes 72574 pkt (dropped 0, overlimits 9566 requeues 0) 
+ backlog 37850b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:43.669 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 111370629 bytes 74270 pkt (dropped 0, overlimits 9808 requeues 0) 
+ backlog 45420b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:44.692 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 113337266 bytes 75583 pkt (dropped 0, overlimits 9967 requeues 0) 
+ backlog 39364b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:45.734 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 115276981 bytes 76876 pkt (dropped 0, overlimits 10155 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:46.757 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 117427833 bytes 78306 pkt (dropped 0, overlimits 10334 requeues 0) 
+ backlog 74186b 3p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:47.780 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 119591933 bytes 79746 pkt (dropped 0, overlimits 10531 requeues 0) 
+ backlog 74186b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:48.804 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 122114959 bytes 81425 pkt (dropped 0, overlimits 10757 requeues 0) 
+ backlog 31794b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:49.832 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 124463875 bytes 82989 pkt (dropped 0, overlimits 10969 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:50.857 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 126821995 bytes 84561 pkt (dropped 0, overlimits 11190 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:51.880 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 129311767 bytes 86219 pkt (dropped 0, overlimits 11399 requeues 0) 
+ backlog 105980b 3p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:52.901 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 131578765 bytes 87726 pkt (dropped 0, overlimits 11585 requeues 0) 
+ backlog 56018b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:53.924 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 134153321 bytes 89440 pkt (dropped 0, overlimits 11796 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:54.945 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 136281203 bytes 90858 pkt (dropped 0, overlimits 12005 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:55.970 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 138399463 bytes 92268 pkt (dropped 0, overlimits 12184 requeues 0) 
+ backlog 22710b 1p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:56.992 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139647943 bytes 93103 pkt (dropped 0, overlimits 12298 requeues 0) 
+ backlog 51476b 2p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:58.014 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139767976 bytes 93184 pkt (dropped 0, overlimits 12310 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:13:59.035 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139767976 bytes 93184 pkt (dropped 0, overlimits 12310 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:00.059 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139768151 bytes 93185 pkt (dropped 0, overlimits 12310 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:01.079 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139866939 bytes 93264 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:02.102 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139866981 bytes 93265 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:03.123 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139867023 bytes 93266 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:04.145 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139867023 bytes 93266 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:05.165 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139867023 bytes 93266 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:06.188 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139867089 bytes 93267 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:07.209 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139867089 bytes 93267 pkt (dropped 0, overlimits 12361 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:08.231 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139877168 bytes 93293 pkt (dropped 0, overlimits 12366 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:09.251 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139877276 bytes 93295 pkt (dropped 0, overlimits 12366 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:10.275 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 12366 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:11.299 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 12366 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:12.321 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 12366 requeues 0) 
+ backlog 0b 0p requeues 0
+=== TIMESTAMP 2026-11-28T04:14:13.346 ===
+qdisc htb 1: root refcnt 2 r2q 10 default 0x30 direct_packets_stat 0 direct_qlen 1000
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 12366 requeues 0) 
+ backlog 0b 0p requeues 0

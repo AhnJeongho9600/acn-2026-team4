@@ -1,0 +1,2125 @@
+=== TIMESTAMP 2026-11-28T04:12:47.315 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 187 ctokens: 187
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:20 parent 1:1 prio 0 rate 9360Kbit ceil 9360Kbit burst 1598b cburst 1598b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:48.337 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 187 ctokens: 187
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:20 parent 1:1 prio 0 rate 9360Kbit ceil 9360Kbit burst 1598b cburst 1598b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:49.359 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 187 ctokens: 187
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:20 parent 1:1 prio 0 rate 9360Kbit ceil 9360Kbit burst 1598b cburst 1598b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:50.381 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 187 ctokens: 187
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:20 parent 1:1 prio 0 rate 9360Kbit ceil 9360Kbit burst 1598b cburst 1598b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:51.440 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 66 bytes 1 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 178 ctokens: 178
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 66 bytes 1 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 9360Kbit ceil 9360Kbit burst 1598b cburst 1598b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:52.462 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 693266 bytes 479 pkt (dropped 0, overlimits 30 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3279 ctokens: -3279
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 582064 bytes 396 pkt (dropped 0, overlimits 44 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 56 borrowed: 0 giants: 0
+ tokens: -99407 ctokens: -99407
+
+class htb 1:20 parent 1:1 prio 0 rate 9360Kbit ceil 9360Kbit burst 1598b cburst 1598b 
+ Sent 111202 bytes 83 pkt (dropped 0, overlimits 10 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: -384066 ctokens: -384066
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:53.486 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 2599770 bytes 1745 pkt (dropped 0, overlimits 101 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3031 ctokens: -3031
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 1343984 bytes 906 pkt (dropped 0, overlimits 93 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 108 borrowed: 0 giants: 0
+ tokens: -103128 ctokens: -103128
+
+class htb 1:20 parent 1:1 prio 0 rate 7960Kbit ceil 7960Kbit burst 1599b cburst 1599b 
+ Sent 1255786 bytes 839 pkt (dropped 0, overlimits 41 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 50 borrowed: 0 giants: 0
+ tokens: -379053 ctokens: -379053
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:54.512 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 4559264 bytes 3046 pkt (dropped 0, overlimits 173 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3031 ctokens: -3031
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 2281528 bytes 1532 pkt (dropped 0, overlimits 147 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 167 borrowed: 0 giants: 0
+ tokens: -92256 ctokens: -92256
+
+class htb 1:20 parent 1:1 prio 0 rate 6970Kbit ceil 6970Kbit burst 1598b cburst 1598b 
+ Sent 2277736 bytes 1514 pkt (dropped 0, overlimits 67 requeues 0) 
+ backlog 54504b 1p requeues 0
+ lended: 76 borrowed: 0 giants: 0
+ tokens: -1221750 ctokens: -1221750
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 390 ctokens: 390
+
+=== TIMESTAMP 2026-11-28T04:12:55.537 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 6072736 bytes 4057 pkt (dropped 0, overlimits 227 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3598 ctokens: -3598
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 2981940 bytes 2005 pkt (dropped 0, overlimits 191 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 219 borrowed: 0 giants: 0
+ tokens: -107852 ctokens: -107852
+
+class htb 1:20 parent 1:1 prio 0 rate 5580Kbit ceil 5580Kbit burst 1598b cburst 1598b 
+ Sent 3090754 bytes 2051 pkt (dropped 0, overlimits 93 requeues 0) 
+ backlog 4542b 1p requeues 0
+ lended: 103 borrowed: 0 giants: 0
+ tokens: -1424352 ctokens: -1424352
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 42 bytes 1 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:12:56.561 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 7685728 bytes 5133 pkt (dropped 0, overlimits 305 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3220 ctokens: -3220
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 3909048 bytes 2627 pkt (dropped 0, overlimits 248 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 283 borrowed: 0 giants: 0
+ tokens: -97709 ctokens: -97709
+
+class htb 1:20 parent 1:1 prio 0 rate 5310Kbit ceil 5310Kbit burst 1598b cburst 1598b 
+ Sent 3776596 bytes 2504 pkt (dropped 0, overlimits 114 requeues 0) 
+ backlog 52990b 1p requeues 0
+ lended: 124 borrowed: 0 giants: 0
+ tokens: -356330 ctokens: -356330
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 84 bytes 2 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:12:57.585 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 9033338 bytes 6026 pkt (dropped 0, overlimits 377 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3220 ctokens: -3220
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 4588942 bytes 3078 pkt (dropped 0, overlimits 299 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 342 borrowed: 0 giants: 0
+ tokens: -97716 ctokens: -97716
+
+class htb 1:20 parent 1:1 prio 0 rate 5120Kbit ceil 5120Kbit burst 1599b cburst 1599b 
+ Sent 4444270 bytes 2945 pkt (dropped 0, overlimits 133 requeues 0) 
+ backlog 63588b 2p requeues 0
+ lended: 143 borrowed: 0 giants: 0
+ tokens: -1329636 ctokens: -1329636
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 126 bytes 3 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:12:58.609 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 10691018 bytes 7126 pkt (dropped 0, overlimits 457 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2789 ctokens: -2789
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 5551696 bytes 3719 pkt (dropped 0, overlimits 356 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 405 borrowed: 0 giants: 0
+ tokens: -84489 ctokens: -84489
+
+class htb 1:20 parent 1:1 prio 0 rate 6390Kbit ceil 6390Kbit burst 1599b cburst 1599b 
+ Sent 5139196 bytes 3404 pkt (dropped 0, overlimits 154 requeues 0) 
+ backlog 54504b 1p requeues 0
+ lended: 164 borrowed: 0 giants: 0
+ tokens: -296104 ctokens: -296104
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 126 bytes 3 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:12:59.634 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 12307038 bytes 8196 pkt (dropped 0, overlimits 537 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2841 ctokens: -2841
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 6291110 bytes 4210 pkt (dropped 0, overlimits 410 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 466 borrowed: 0 giants: 0
+ tokens: -86848 ctokens: -86848
+
+class htb 1:20 parent 1:1 prio 0 rate 7280Kbit ceil 7280Kbit burst 1598b cburst 1598b 
+ Sent 6015802 bytes 3983 pkt (dropped 0, overlimits 178 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 188 borrowed: 0 giants: 0
+ tokens: -1013791 ctokens: -1013791
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 126 bytes 3 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:00.658 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 14984692 bytes 9985 pkt (dropped 0, overlimits 672 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -8330 ctokens: -8330
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 7998752 bytes 5343 pkt (dropped 0, overlimits 512 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 585 borrowed: 0 giants: 0
+ tokens: -95239 ctokens: -95239
+
+class htb 1:20 parent 1:1 prio 0 rate 8260Kbit ceil 8260Kbit burst 1598b cburst 1598b 
+ Sent 6985772 bytes 4638 pkt (dropped 0, overlimits 222 requeues 0) 
+ backlog 136260b 2p requeues 0
+ lended: 235 borrowed: 0 giants: 0
+ tokens: -1030871 ctokens: -1030871
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 168 bytes 4 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:01.682 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 17476447 bytes 11646 pkt (dropped 0, overlimits 787 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -1086 ctokens: -1086
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 9412497 bytes 6291 pkt (dropped 0, overlimits 598 requeues 0) 
+ backlog 21196b 1p requeues 0
+ lended: 684 borrowed: 0 giants: 0
+ tokens: -30783 ctokens: -30783
+
+class htb 1:20 parent 1:1 prio 0 rate 8940Kbit ceil 8940Kbit burst 1598b cburst 1598b 
+ Sent 8063740 bytes 5350 pkt (dropped 0, overlimits 253 requeues 0) 
+ backlog 80242b 2p requeues 0
+ lended: 266 borrowed: 0 giants: 0
+ tokens: -783183 ctokens: -783183
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 210 bytes 5 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:02.704 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 20141025 bytes 13425 pkt (dropped 0, overlimits 894 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -949 ctokens: -949
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 10974841 bytes 7341 pkt (dropped 0, overlimits 687 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 790 borrowed: 0 giants: 0
+ tokens: -114685 ctokens: -114685
+
+class htb 1:20 parent 1:1 prio 0 rate 9070Kbit ceil 9070Kbit burst 1598b cburst 1598b 
+ Sent 9165932 bytes 6078 pkt (dropped 0, overlimits 281 requeues 0) 
+ backlog 136260b 2p requeues 0
+ lended: 294 borrowed: 0 giants: 0
+ tokens: -125133 ctokens: -125133
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 252 bytes 6 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 6 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:03.727 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 23134373 bytes 15423 pkt (dropped 0, overlimits 1005 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3279 ctokens: -3279
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 12741849 bytes 8529 pkt (dropped 0, overlimits 785 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 903 borrowed: 0 giants: 0
+ tokens: -99421 ctokens: -99421
+
+class htb 1:20 parent 1:1 prio 0 rate 9500Kbit ceil 9500Kbit burst 1598b cburst 1598b 
+ Sent 10392272 bytes 6888 pkt (dropped 0, overlimits 308 requeues 0) 
+ backlog 59046b 1p requeues 0
+ lended: 321 borrowed: 0 giants: 0
+ tokens: -896351 ctokens: -896351
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 252 bytes 6 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 6 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:04.748 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 26084389 bytes 17391 pkt (dropped 0, overlimits 1118 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -1138 ctokens: -1138
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 14533655 bytes 9732 pkt (dropped 0, overlimits 882 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1016 borrowed: 0 giants: 0
+ tokens: -85103 ctokens: -85103
+
+class htb 1:20 parent 1:1 prio 0 rate 9810Kbit ceil 9810Kbit burst 1599b cburst 1599b 
+ Sent 11550482 bytes 7653 pkt (dropped 0, overlimits 340 requeues 0) 
+ backlog 56018b 1p requeues 0
+ lended: 354 borrowed: 0 giants: 0
+ tokens: -134952 ctokens: -134952
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 252 bytes 6 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 6 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:05.772 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 28614931 bytes 19074 pkt (dropped 0, overlimits 1212 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -8330 ctokens: -8330
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 15837857 bytes 10605 pkt (dropped 0, overlimits 952 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1098 borrowed: 0 giants: 0
+ tokens: 302 ctokens: 302
+
+class htb 1:20 parent 1:1 prio 0 rate 10030Kbit ceil 10030Kbit burst 1598b cburst 1598b 
+ Sent 12776822 bytes 8463 pkt (dropped 0, overlimits 372 requeues 0) 
+ backlog 68130b 1p requeues 0
+ lended: 387 borrowed: 0 giants: 0
+ tokens: -848557 ctokens: -848557
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 252 bytes 6 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 6 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:06.796 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 30947043 bytes 20624 pkt (dropped 0, overlimits 1296 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -8330 ctokens: -8330
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 16943629 bytes 11345 pkt (dropped 0, overlimits 1015 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1170 borrowed: 0 giants: 0
+ tokens: -119422 ctokens: -119422
+
+class htb 1:20 parent 1:1 prio 0 rate 9130Kbit ceil 9130Kbit burst 1597b cburst 1597b 
+ Sent 14003162 bytes 9273 pkt (dropped 0, overlimits 400 requeues 0) 
+ backlog 130204b 2p requeues 0
+ lended: 415 borrowed: 0 giants: 0
+ tokens: -932680 ctokens: -932680
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 252 bytes 6 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 6 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:07.819 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 33190857 bytes 22115 pkt (dropped 0, overlimits 1374 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3031 ctokens: -3031
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 18176091 bytes 12168 pkt (dropped 0, overlimits 1084 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1248 borrowed: 0 giants: 0
+ tokens: -86610 ctokens: -86610
+
+class htb 1:20 parent 1:1 prio 0 rate 9200Kbit ceil 9200Kbit burst 1598b cburst 1598b 
+ Sent 15014514 bytes 9941 pkt (dropped 0, overlimits 429 requeues 0) 
+ backlog 80242b 2p requeues 0
+ lended: 445 borrowed: 0 giants: 0
+ tokens: -760940 ctokens: -760940
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 252 bytes 6 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 6 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:08.844 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 35653392 bytes 23767 pkt (dropped 0, overlimits 1464 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2463 ctokens: -2463
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 19468262 bytes 13046 pkt (dropped 0, overlimits 1172 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1353 borrowed: 0 giants: 0
+ tokens: -70314 ctokens: -70314
+
+class htb 1:20 parent 1:1 prio 0 rate 8540Kbit ceil 8540Kbit burst 1598b cburst 1598b 
+ Sent 16184836 bytes 10714 pkt (dropped 0, overlimits 459 requeues 0) 
+ backlog 68130b 1p requeues 0
+ lended: 476 borrowed: 0 giants: 0
+ tokens: -997156 ctokens: -997156
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 294 bytes 7 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 7 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:09.866 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 38101288 bytes 25399 pkt (dropped 0, overlimits 1555 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2841 ctokens: -2841
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 20826036 bytes 13957 pkt (dropped 0, overlimits 1241 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1437 borrowed: 0 giants: 0
+ tokens: -81178 ctokens: -81178
+
+class htb 1:20 parent 1:1 prio 0 rate 8790Kbit ceil 8790Kbit burst 1599b cburst 1599b 
+ Sent 17274916 bytes 11434 pkt (dropped 0, overlimits 487 requeues 0) 
+ backlog 68130b 1p requeues 0
+ lended: 504 borrowed: 0 giants: 0
+ tokens: -968812 ctokens: -968812
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 336 bytes 8 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 8 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:10.890 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 40345618 bytes 26892 pkt (dropped 0, overlimits 1640 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3598 ctokens: -3598
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 22002954 bytes 14744 pkt (dropped 0, overlimits 1303 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1509 borrowed: 0 giants: 0
+ tokens: -108575 ctokens: -108575
+
+class htb 1:20 parent 1:1 prio 0 rate 8260Kbit ceil 8260Kbit burst 1598b cburst 1598b 
+ Sent 18342286 bytes 12139 pkt (dropped 0, overlimits 520 requeues 0) 
+ backlog 22710b 1p requeues 0
+ lended: 537 borrowed: 0 giants: 0
+ tokens: -687194 ctokens: -687194
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:11.911 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 42662632 bytes 28433 pkt (dropped 0, overlimits 1739 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 23369176 bytes 15657 pkt (dropped 0, overlimits 1383 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1597 borrowed: 0 giants: 0
+ tokens: -119457 ctokens: -119457
+
+class htb 1:20 parent 1:1 prio 0 rate 7180Kbit ceil 7180Kbit burst 1598b cburst 1598b 
+ Sent 19293078 bytes 12767 pkt (dropped 0, overlimits 544 requeues 0) 
+ backlog 75700b 2p requeues 0
+ lended: 561 borrowed: 0 giants: 0
+ tokens: -737934 ctokens: -737934
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:12.935 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 44941904 bytes 29951 pkt (dropped 0, overlimits 1836 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -8330 ctokens: -8330
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 24668890 bytes 16528 pkt (dropped 0, overlimits 1453 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1681 borrowed: 0 giants: 0
+ tokens: 4033 ctokens: 4033
+
+class htb 1:20 parent 1:1 prio 0 rate 7140Kbit ceil 7140Kbit burst 1599b cburst 1599b 
+ Sent 20272636 bytes 13414 pkt (dropped 0, overlimits 572 requeues 0) 
+ backlog 65102b 1p requeues 0
+ lended: 589 borrowed: 0 giants: 0
+ tokens: -1192686 ctokens: -1192686
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:13.958 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 47428228 bytes 31607 pkt (dropped 0, overlimits 1933 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -8330 ctokens: -8330
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 26201394 bytes 17554 pkt (dropped 0, overlimits 1535 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1775 borrowed: 0 giants: 0
+ tokens: -108573 ctokens: -108573
+
+class htb 1:20 parent 1:1 prio 0 rate 7800Kbit ceil 7800Kbit burst 1599b cburst 1599b 
+ Sent 21226456 bytes 14044 pkt (dropped 0, overlimits 596 requeues 0) 
+ backlog 57532b 1p requeues 0
+ lended: 613 borrowed: 0 giants: 0
+ tokens: -1091739 ctokens: -1091739
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:14.980 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 49543880 bytes 33015 pkt (dropped 0, overlimits 2020 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3546 ctokens: -3546
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 27431356 bytes 18377 pkt (dropped 0, overlimits 1596 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1849 borrowed: 0 giants: 0
+ tokens: -107086 ctokens: -107086
+
+class htb 1:20 parent 1:1 prio 0 rate 7570Kbit ceil 7570Kbit burst 1598b cburst 1598b 
+ Sent 22112146 bytes 14629 pkt (dropped 0, overlimits 624 requeues 0) 
+ backlog 57532b 1p requeues 0
+ lended: 641 borrowed: 0 giants: 0
+ tokens: -274933 ctokens: -274933
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:16.004 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 51648880 bytes 34415 pkt (dropped 0, overlimits 2109 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -7005 ctokens: -7005
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 28593134 bytes 19154 pkt (dropped 0, overlimits 1663 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1925 borrowed: 0 giants: 0
+ tokens: -81432 ctokens: -81432
+
+class htb 1:20 parent 1:1 prio 0 rate 6700Kbit ceil 6700Kbit burst 1598b cburst 1598b 
+ Sent 23055368 bytes 15252 pkt (dropped 0, overlimits 651 requeues 0) 
+ backlog 68130b 2p requeues 0
+ lended: 668 borrowed: 0 giants: 0
+ tokens: -1073290 ctokens: -1073290
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:17.025 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 53099982 bytes 35378 pkt (dropped 0, overlimits 2172 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3658 ctokens: -3658
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 29300862 bytes 19626 pkt (dropped 0, overlimits 1710 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1973 borrowed: 0 giants: 0
+ tokens: -110271 ctokens: -110271
+
+class htb 1:20 parent 1:1 prio 0 rate 5740Kbit ceil 5740Kbit burst 1598b cburst 1598b 
+ Sent 23798742 bytes 15743 pkt (dropped 0, overlimits 676 requeues 0) 
+ backlog 71158b 2p requeues 0
+ lended: 693 borrowed: 0 giants: 0
+ tokens: -1119563 ctokens: -1119563
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:18.049 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 55248522 bytes 36808 pkt (dropped 0, overlimits 2268 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -6248 ctokens: -6248
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 30699972 bytes 20561 pkt (dropped 0, overlimits 1788 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2060 borrowed: 0 giants: 0
+ tokens: -64882 ctokens: -64882
+
+class htb 1:20 parent 1:1 prio 0 rate 5420Kbit ceil 5420Kbit burst 1598b cburst 1598b 
+ Sent 24548172 bytes 16238 pkt (dropped 0, overlimits 698 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 715 borrowed: 0 giants: 0
+ tokens: -1187112 ctokens: -1187112
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:19.073 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 56825028 bytes 37857 pkt (dropped 0, overlimits 2328 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -5302 ctokens: -5302
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 31602748 bytes 21165 pkt (dropped 0, overlimits 1837 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2117 borrowed: 0 giants: 0
+ tokens: -3624 ctokens: -3624
+
+class htb 1:20 parent 1:1 prio 0 rate 5900Kbit ceil 5900Kbit burst 1598b cburst 1598b 
+ Sent 25221902 bytes 16683 pkt (dropped 0, overlimits 718 requeues 0) 
+ backlog 84784b 2p requeues 0
+ lended: 735 borrowed: 0 giants: 0
+ tokens: -930098 ctokens: -930098
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:20.096 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 58463554 bytes 38946 pkt (dropped 0, overlimits 2387 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -8330 ctokens: -8330
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 32467620 bytes 21743 pkt (dropped 0, overlimits 1887 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2175 borrowed: 0 giants: 0
+ tokens: -114441 ctokens: -114441
+
+class htb 1:20 parent 1:1 prio 0 rate 6240Kbit ceil 6240Kbit burst 1599b cburst 1599b 
+ Sent 25995556 bytes 17194 pkt (dropped 0, overlimits 739 requeues 0) 
+ backlog 68130b 1p requeues 0
+ lended: 756 borrowed: 0 giants: 0
+ tokens: -1364738 ctokens: -1364738
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:21.117 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 60458032 bytes 40273 pkt (dropped 0, overlimits 2473 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 33800480 bytes 22633 pkt (dropped 0, overlimits 1957 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2253 borrowed: 0 giants: 0
+ tokens: -119440 ctokens: -119440
+
+class htb 1:20 parent 1:1 prio 0 rate 5420Kbit ceil 5420Kbit burst 1598b cburst 1598b 
+ Sent 26657174 bytes 17631 pkt (dropped 0, overlimits 758 requeues 0) 
+ backlog 71158b 2p requeues 0
+ lended: 775 borrowed: 0 giants: 0
+ tokens: -1117199 ctokens: -1117199
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:22.141 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 62964267 bytes 41944 pkt (dropped 0, overlimits 2573 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -1895 ctokens: -1895
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 35469473 bytes 23751 pkt (dropped 0, overlimits 2041 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2356 borrowed: 0 giants: 0
+ tokens: -54018 ctokens: -54018
+
+class htb 1:20 parent 1:1 prio 0 rate 6600Kbit ceil 6600Kbit burst 1598b cburst 1598b 
+ Sent 27494416 bytes 18184 pkt (dropped 0, overlimits 781 requeues 0) 
+ backlog 62074b 1p requeues 0
+ lended: 798 borrowed: 0 giants: 0
+ tokens: -1290287 ctokens: -1290287
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:23.169 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 64934906 bytes 43255 pkt (dropped 0, overlimits 2657 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -6248 ctokens: -6248
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 36502946 bytes 24443 pkt (dropped 0, overlimits 2094 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2421 borrowed: 0 giants: 0
+ tokens: -108576 ctokens: -108576
+
+class htb 1:20 parent 1:1 prio 0 rate 7430Kbit ceil 7430Kbit burst 1598b cburst 1598b 
+ Sent 28431582 bytes 18803 pkt (dropped 0, overlimits 814 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 831 borrowed: 0 giants: 0
+ tokens: -865940 ctokens: -865940
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:24.191 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 67099372 bytes 44694 pkt (dropped 0, overlimits 2746 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3090 ctokens: -3090
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 37702994 bytes 25245 pkt (dropped 0, overlimits 2160 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2494 borrowed: 0 giants: 0
+ tokens: -93984 ctokens: -93984
+
+class htb 1:20 parent 1:1 prio 0 rate 8010Kbit ceil 8010Kbit burst 1598b cburst 1598b 
+ Sent 29396000 bytes 19440 pkt (dropped 0, overlimits 843 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 860 borrowed: 0 giants: 0
+ tokens: -968545 ctokens: -968545
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:25.215 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 69336156 bytes 46182 pkt (dropped 0, overlimits 2839 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3409 ctokens: -3409
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 38932968 bytes 26068 pkt (dropped 0, overlimits 2227 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2572 borrowed: 0 giants: 0
+ tokens: -101504 ctokens: -101504
+
+class htb 1:20 parent 1:1 prio 0 rate 7710Kbit ceil 7710Kbit burst 1598b cburst 1598b 
+ Sent 30402810 bytes 20105 pkt (dropped 0, overlimits 873 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 890 borrowed: 0 giants: 0
+ tokens: -760801 ctokens: -760801
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:26.242 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 71341178 bytes 47515 pkt (dropped 0, overlimits 2913 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2274 ctokens: -2274
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 40094692 bytes 26844 pkt (dropped 0, overlimits 2287 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2642 borrowed: 0 giants: 0
+ tokens: -81178 ctokens: -81178
+
+class htb 1:20 parent 1:1 prio 0 rate 7500Kbit ceil 7500Kbit burst 1598b cburst 1598b 
+ Sent 31246108 bytes 20662 pkt (dropped 0, overlimits 899 requeues 0) 
+ backlog 54504b 1p requeues 0
+ lended: 918 borrowed: 0 giants: 0
+ tokens: -325907 ctokens: -325907
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 378 bytes 9 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 9 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:27.264 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 73670454 bytes 49067 pkt (dropped 0, overlimits 3006 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3220 ctokens: -3220
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 41470106 bytes 27765 pkt (dropped 0, overlimits 2357 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2725 borrowed: 0 giants: 0
+ tokens: -97736 ctokens: -97736
+
+class htb 1:20 parent 1:1 prio 0 rate 7360Kbit ceil 7360Kbit burst 1598b cburst 1598b 
+ Sent 32199928 bytes 21292 pkt (dropped 0, overlimits 927 requeues 0) 
+ backlog 49962b 1p requeues 0
+ lended: 946 borrowed: 0 giants: 0
+ tokens: -437060 ctokens: -437060
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:28.286 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 76166282 bytes 50729 pkt (dropped 0, overlimits 3100 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3788 ctokens: -3788
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 42969722 bytes 28769 pkt (dropped 0, overlimits 2433 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2818 borrowed: 0 giants: 0
+ tokens: -112741 ctokens: -112741
+
+class htb 1:20 parent 1:1 prio 0 rate 7960Kbit ceil 7960Kbit burst 1599b cburst 1599b 
+ Sent 33196140 bytes 21950 pkt (dropped 0, overlimits 957 requeues 0) 
+ backlog 68130b 2p requeues 0
+ lended: 976 borrowed: 0 giants: 0
+ tokens: -665660 ctokens: -665660
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:29.309 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 78415112 bytes 52224 pkt (dropped 0, overlimits 3182 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2274 ctokens: -2274
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 44170864 bytes 29572 pkt (dropped 0, overlimits 2496 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2894 borrowed: 0 giants: 0
+ tokens: -114677 ctokens: -114677
+
+class htb 1:20 parent 1:1 prio 0 rate 8380Kbit ceil 8380Kbit burst 1598b cburst 1598b 
+ Sent 34243828 bytes 22642 pkt (dropped 0, overlimits 988 requeues 0) 
+ backlog 45420b 1p requeues 0
+ lended: 1007 borrowed: 0 giants: 0
+ tokens: -293524 ctokens: -293524
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:30.334 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 80751916 bytes 53780 pkt (dropped 0, overlimits 3278 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -1895 ctokens: -1895
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 45570502 bytes 30509 pkt (dropped 0, overlimits 2573 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2980 borrowed: 0 giants: 0
+ tokens: -54018 ctokens: -54018
+
+class htb 1:20 parent 1:1 prio 0 rate 7270Kbit ceil 7270Kbit burst 1599b cburst 1599b 
+ Sent 35180994 bytes 23261 pkt (dropped 0, overlimits 1015 requeues 0) 
+ backlog 66616b 2p requeues 0
+ lended: 1034 borrowed: 0 giants: 0
+ tokens: -885037 ctokens: -885037
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:31.357 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 83132626 bytes 55365 pkt (dropped 0, overlimits 3387 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 47004962 bytes 31469 pkt (dropped 0, overlimits 2654 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3075 borrowed: 0 giants: 0
+ tokens: -119420 ctokens: -119420
+
+class htb 1:20 parent 1:1 prio 0 rate 7190Kbit ceil 7190Kbit burst 1598b cburst 1598b 
+ Sent 36127244 bytes 23886 pkt (dropped 0, overlimits 1044 requeues 0) 
+ backlog 72672b 2p requeues 0
+ lended: 1063 borrowed: 0 giants: 0
+ tokens: -763235 ctokens: -763235
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:32.381 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 85298414 bytes 56809 pkt (dropped 0, overlimits 3472 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -1138 ctokens: -1138
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 48338050 bytes 32363 pkt (dropped 0, overlimits 2728 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3161 borrowed: 0 giants: 0
+ tokens: -37965 ctokens: -37965
+
+class htb 1:20 parent 1:1 prio 0 rate 8160Kbit ceil 8160Kbit burst 1599b cburst 1599b 
+ Sent 36959944 bytes 24436 pkt (dropped 0, overlimits 1069 requeues 0) 
+ backlog 27252b 7p requeues 0
+ lended: 1088 borrowed: 0 giants: 0
+ tokens: -1033608 ctokens: -1033608
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:33.404 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 87379298 bytes 58195 pkt (dropped 0, overlimits 3564 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2841 ctokens: -2841
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 49628626 bytes 33227 pkt (dropped 0, overlimits 2799 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3242 borrowed: 0 giants: 0
+ tokens: -86868 ctokens: -86868
+
+class htb 1:20 parent 1:1 prio 0 rate 7120Kbit ceil 7120Kbit burst 1598b cburst 1598b 
+ Sent 37750252 bytes 24958 pkt (dropped 0, overlimits 1124 requeues 0) 
+ backlog 22710b 1p requeues 0
+ lended: 1145 borrowed: 0 giants: 0
+ tokens: -398628 ctokens: -398628
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:34.426 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 89729362 bytes 59761 pkt (dropped 0, overlimits 3673 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 51238344 bytes 34304 pkt (dropped 0, overlimits 2882 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3337 borrowed: 0 giants: 0
+ tokens: -119448 ctokens: -119448
+
+class htb 1:20 parent 1:1 prio 0 rate 7790Kbit ceil 7790Kbit burst 1598b cburst 1598b 
+ Sent 38490598 bytes 25447 pkt (dropped 0, overlimits 1171 requeues 0) 
+ backlog 36336b 2p requeues 0
+ lended: 1194 borrowed: 0 giants: 0
+ tokens: -218587 ctokens: -218587
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 420 bytes 10 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 10 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:35.448 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 92155371 bytes 61409 pkt (dropped 0, overlimits 3785 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 52804630 bytes 35353 pkt (dropped 0, overlimits 2966 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3435 borrowed: 0 giants: 0
+ tokens: -114653 ctokens: -114653
+
+class htb 1:20 parent 1:1 prio 0 rate 7560Kbit ceil 7560Kbit burst 1598b cburst 1598b 
+ Sent 39350279 bytes 26045 pkt (dropped 0, overlimits 1256 requeues 0) 
+ backlog 30280b 1p requeues 0
+ lended: 1281 borrowed: 0 giants: 0
+ tokens: -600743 ctokens: -600743
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 462 bytes 11 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 11 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:36.471 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 94307004 bytes 62846 pkt (dropped 0, overlimits 3876 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -760 ctokens: -760
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 54037674 bytes 36179 pkt (dropped 0, overlimits 3034 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3513 borrowed: 0 giants: 0
+ tokens: -65091 ctokens: -65091
+
+class htb 1:20 parent 1:1 prio 0 rate 6690Kbit ceil 6690Kbit burst 1598b cburst 1598b 
+ Sent 40268826 bytes 26655 pkt (dropped 0, overlimits 1299 requeues 0) 
+ backlog 54504b 2p requeues 0
+ lended: 1325 borrowed: 0 giants: 0
+ tokens: -141360 ctokens: -141360
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 504 bytes 12 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 12 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:37.494 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 96992286 bytes 64637 pkt (dropped 0, overlimits 3999 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 55872046 bytes 37407 pkt (dropped 0, overlimits 3135 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3627 borrowed: 0 giants: 0
+ tokens: -119433 ctokens: -119433
+
+class htb 1:20 parent 1:1 prio 0 rate 7490Kbit ceil 7490Kbit burst 1598b cburst 1598b 
+ Sent 41119694 bytes 27217 pkt (dropped 0, overlimits 1337 requeues 0) 
+ backlog 33308b 1p requeues 0
+ lended: 1363 borrowed: 0 giants: 0
+ tokens: -555495 ctokens: -555495
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 546 bytes 13 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 13 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:38.518 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 99456374 bytes 66279 pkt (dropped 0, overlimits 4114 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 127 ctokens: 127
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 57438332 bytes 38456 pkt (dropped 0, overlimits 3216 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3721 borrowed: 0 giants: 0
+ tokens: -1646 ctokens: -1646
+
+class htb 1:20 parent 1:1 prio 0 rate 7350Kbit ceil 7350Kbit burst 1598b cburst 1598b 
+ Sent 42017496 bytes 27810 pkt (dropped 0, overlimits 1378 requeues 0) 
+ backlog 51476b 2p requeues 0
+ lended: 1405 borrowed: 0 giants: 0
+ tokens: -386127 ctokens: -386127
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 546 bytes 13 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 13 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:39.544 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 101652364 bytes 67742 pkt (dropped 0, overlimits 4206 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3409 ctokens: -3409
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 58766758 bytes 39345 pkt (dropped 0, overlimits 3286 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3800 borrowed: 0 giants: 0
+ tokens: -103144 ctokens: -103144
+
+class htb 1:20 parent 1:1 prio 0 rate 7950Kbit ceil 7950Kbit burst 1598b cburst 1598b 
+ Sent 42885018 bytes 28383 pkt (dropped 0, overlimits 1414 requeues 0) 
+ backlog 27252b 1p requeues 0
+ lended: 1441 borrowed: 0 giants: 0
+ tokens: -428378 ctokens: -428378
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 588 bytes 14 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 14 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:40.598 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 104097671 bytes 69396 pkt (dropped 0, overlimits 4309 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3788 ctokens: -3788
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 60220353 bytes 40343 pkt (dropped 0, overlimits 3380 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 3926 borrowed: 0 giants: 0
+ tokens: -64882 ctokens: -64882
+
+class htb 1:20 parent 1:1 prio 0 rate 7670Kbit ceil 7670Kbit burst 1598b cburst 1598b 
+ Sent 43876688 bytes 29038 pkt (dropped 0, overlimits 1453 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1481 borrowed: 0 giants: 0
+ tokens: -518105 ctokens: -518105
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 630 bytes 15 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 15 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:41.620 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 106325903 bytes 70888 pkt (dropped 0, overlimits 4395 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3220 ctokens: -3220
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 61559825 bytes 41247 pkt (dropped 0, overlimits 3450 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4019 borrowed: 0 giants: 0
+ tokens: -114755 ctokens: -114755
+
+class htb 1:20 parent 1:1 prio 0 rate 8180Kbit ceil 8180Kbit burst 1598b cburst 1598b 
+ Sent 44765406 bytes 29625 pkt (dropped 0, overlimits 1490 requeues 0) 
+ backlog 39364b 1p requeues 0
+ lended: 1519 borrowed: 0 giants: 0
+ tokens: -416351 ctokens: -416351
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 672 bytes 16 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 16 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:42.644 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 108850489 bytes 72574 pkt (dropped 0, overlimits 4503 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 63132105 bytes 42304 pkt (dropped 0, overlimits 3535 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4127 borrowed: 0 giants: 0
+ tokens: -114789 ctokens: -114789
+
+class htb 1:20 parent 1:1 prio 0 rate 8530Kbit ceil 8530Kbit burst 1598b cburst 1598b 
+ Sent 45717712 bytes 30254 pkt (dropped 0, overlimits 1528 requeues 0) 
+ backlog 37850b 2p requeues 0
+ lended: 1558 borrowed: 0 giants: 0
+ tokens: -488056 ctokens: -488056
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 672 bytes 16 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 16 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:43.669 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 111370629 bytes 74270 pkt (dropped 0, overlimits 4611 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -896 ctokens: -896
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 64560609 bytes 43278 pkt (dropped 0, overlimits 3628 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4247 borrowed: 0 giants: 0
+ tokens: -25351 ctokens: -25351
+
+class htb 1:20 parent 1:1 prio 0 rate 8780Kbit ceil 8780Kbit burst 1597b cburst 1597b 
+ Sent 46809306 bytes 30975 pkt (dropped 0, overlimits 1569 requeues 0) 
+ backlog 45420b 1p requeues 0
+ lended: 1599 borrowed: 0 giants: 0
+ tokens: -452539 ctokens: -452539
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 714 bytes 17 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 17 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:44.692 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 113337266 bytes 75583 pkt (dropped 0, overlimits 4681 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 65573384 bytes 43960 pkt (dropped 0, overlimits 3684 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4314 borrowed: 0 giants: 0
+ tokens: -75945 ctokens: -75945
+
+class htb 1:20 parent 1:1 prio 0 rate 8960Kbit ceil 8960Kbit burst 1598b cburst 1598b 
+ Sent 47763126 bytes 31605 pkt (dropped 0, overlimits 1602 requeues 0) 
+ backlog 39364b 1p requeues 0
+ lended: 1636 borrowed: 0 giants: 0
+ tokens: -442365 ctokens: -442365
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 756 bytes 18 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 18 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:45.734 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 115276981 bytes 76876 pkt (dropped 0, overlimits 4766 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -4269 ctokens: -4269
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 66684899 bytes 44705 pkt (dropped 0, overlimits 3749 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4388 borrowed: 0 giants: 0
+ tokens: -48586 ctokens: -48586
+
+class htb 1:20 parent 1:1 prio 0 rate 9430Kbit ceil 9430Kbit burst 1598b cburst 1598b 
+ Sent 48591284 bytes 32152 pkt (dropped 0, overlimits 1640 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1675 borrowed: 0 giants: 0
+ tokens: -440822 ctokens: -440822
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:46.757 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 117427833 bytes 78306 pkt (dropped 0, overlimits 4847 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 67718419 bytes 45397 pkt (dropped 0, overlimits 3802 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4451 borrowed: 0 giants: 0
+ tokens: -114275 ctokens: -114275
+
+class htb 1:20 parent 1:1 prio 0 rate 8710Kbit ceil 8710Kbit burst 1598b cburst 1598b 
+ Sent 49708616 bytes 32890 pkt (dropped 0, overlimits 1685 requeues 0) 
+ backlog 74186b 3p requeues 0
+ lended: 1721 borrowed: 0 giants: 0
+ tokens: -434398 ctokens: -434398
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:47.780 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 119591933 bytes 79746 pkt (dropped 0, overlimits 4937 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 68886307 bytes 46179 pkt (dropped 0, overlimits 3871 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4528 borrowed: 0 giants: 0
+ tokens: -119435 ctokens: -119435
+
+class htb 1:20 parent 1:1 prio 0 rate 8199Kbit ceil 8199Kbit burst 1598b cburst 1598b 
+ Sent 50704828 bytes 33548 pkt (dropped 0, overlimits 1723 requeues 0) 
+ backlog 74186b 2p requeues 0
+ lended: 1760 borrowed: 0 giants: 0
+ tokens: -530647 ctokens: -530647
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:48.804 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 122114959 bytes 81425 pkt (dropped 0, overlimits 5047 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -4355 ctokens: -4355
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 70385869 bytes 47182 pkt (dropped 0, overlimits 3950 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4620 borrowed: 0 giants: 0
+ tokens: -114628 ctokens: -114628
+
+class htb 1:20 parent 1:1 prio 0 rate 7850Kbit ceil 7850Kbit burst 1598b cburst 1598b 
+ Sent 51728292 bytes 34224 pkt (dropped 0, overlimits 1760 requeues 0) 
+ backlog 31794b 1p requeues 0
+ lended: 1797 borrowed: 0 giants: 0
+ tokens: -578513 ctokens: -578513
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:49.832 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 124463875 bytes 82989 pkt (dropped 0, overlimits 5144 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2274 ctokens: -2274
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 71818815 bytes 48141 pkt (dropped 0, overlimits 4028 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4712 borrowed: 0 giants: 0
+ tokens: -64882 ctokens: -64882
+
+class htb 1:20 parent 1:1 prio 0 rate 7600Kbit ceil 7600Kbit burst 1598b cburst 1598b 
+ Sent 52644262 bytes 34829 pkt (dropped 0, overlimits 1797 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1834 borrowed: 0 giants: 0
+ tokens: -547754 ctokens: -547754
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:50.857 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 126821995 bytes 84561 pkt (dropped 0, overlimits 5247 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3031 ctokens: -3031
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 73251881 bytes 49102 pkt (dropped 0, overlimits 4106 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4805 borrowed: 0 giants: 0
+ tokens: -89911 ctokens: -89911
+
+class htb 1:20 parent 1:1 prio 0 rate 8480Kbit ceil 8480Kbit burst 1598b cburst 1598b 
+ Sent 53569316 bytes 35440 pkt (dropped 0, overlimits 1837 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1874 borrowed: 0 giants: 0
+ tokens: -243459 ctokens: -243459
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:51.880 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 129345075 bytes 86241 pkt (dropped 0, overlimits 5339 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3977 ctokens: -3977
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 74751497 bytes 50106 pkt (dropped 0, overlimits 4186 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4894 borrowed: 0 giants: 0
+ tokens: -119449 ctokens: -119449
+
+class htb 1:20 parent 1:1 prio 0 rate 8740Kbit ceil 8740Kbit burst 1599b cburst 1599b 
+ Sent 54592780 bytes 36116 pkt (dropped 0, overlimits 1876 requeues 0) 
+ backlog 72672b 2p requeues 0
+ lended: 1914 borrowed: 0 giants: 0
+ tokens: -562907 ctokens: -562907
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:52.901 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 131578765 bytes 87726 pkt (dropped 0, overlimits 5424 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3598 ctokens: -3598
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 75951125 bytes 50908 pkt (dropped 0, overlimits 4250 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 4967 borrowed: 0 giants: 0
+ tokens: -108579 ctokens: -108579
+
+class htb 1:20 parent 1:1 prio 0 rate 8930Kbit ceil 8930Kbit burst 1598b cburst 1598b 
+ Sent 55626842 bytes 36799 pkt (dropped 0, overlimits 1911 requeues 0) 
+ backlog 56018b 2p requeues 0
+ lended: 1949 borrowed: 0 giants: 0
+ tokens: -699248 ctokens: -699248
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:53.924 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 134186629 bytes 89462 pkt (dropped 0, overlimits 5522 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -2652 ctokens: -2652
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 77450741 bytes 51912 pkt (dropped 0, overlimits 4330 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5059 borrowed: 0 giants: 0
+ tokens: -81426 ctokens: -81426
+
+class htb 1:20 parent 1:1 prio 0 rate 9060Kbit ceil 9060Kbit burst 1597b cburst 1597b 
+ Sent 56735090 bytes 37531 pkt (dropped 0, overlimits 1947 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 1986 borrowed: 0 giants: 0
+ tokens: -375921 ctokens: -375921
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:54.945 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 136281203 bytes 90858 pkt (dropped 0, overlimits 5616 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3409 ctokens: -3409
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 78717157 bytes 52761 pkt (dropped 0, overlimits 4401 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5142 borrowed: 0 giants: 0
+ tokens: -118488 ctokens: -118488
+
+class htb 1:20 parent 1:1 prio 0 rate 9150Kbit ceil 9150Kbit burst 1597b cburst 1597b 
+ Sent 57563248 bytes 38078 pkt (dropped 0, overlimits 1988 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2028 borrowed: 0 giants: 0
+ tokens: -392890 ctokens: -392890
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:55.970 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 138430217 bytes 92289 pkt (dropped 0, overlimits 5693 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -3598 ctokens: -3598
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 79980481 bytes 53607 pkt (dropped 0, overlimits 4465 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5216 borrowed: 0 giants: 0
+ tokens: -103701 ctokens: -103701
+
+class htb 1:20 parent 1:1 prio 0 rate 7810Kbit ceil 7810Kbit burst 1598b cburst 1598b 
+ Sent 58448938 bytes 38663 pkt (dropped 0, overlimits 2028 requeues 0) 
+ backlog 22710b 1p requeues 0
+ lended: 2071 borrowed: 0 giants: 0
+ tokens: -192493 ctokens: -192493
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:56.992 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139647943 bytes 93103 pkt (dropped 0, overlimits 5739 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: -1517 ctokens: -1517
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80448508 bytes 53922 pkt (dropped 0, overlimits 4490 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5249 borrowed: 0 giants: 0
+ tokens: 5540 ctokens: 5540
+
+class htb 1:20 parent 1:1 prio 0 rate 6870Kbit ceil 6870Kbit burst 1598b cburst 1598b 
+ Sent 59198637 bytes 39162 pkt (dropped 0, overlimits 2069 requeues 0) 
+ backlog 51476b 2p requeues 0
+ lended: 2114 borrowed: 0 giants: 0
+ tokens: -247867 ctokens: -247867
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:58.014 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139767976 bytes 93184 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 178 ctokens: 178
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80448508 bytes 53922 pkt (dropped 0, overlimits 4490 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5249 borrowed: 0 giants: 0
+ tokens: 5540 ctokens: 5540
+
+class htb 1:20 parent 1:1 prio 0 rate 6210Kbit ceil 6210Kbit burst 1599b cburst 1599b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:13:59.035 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139767976 bytes 93184 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 178 ctokens: 178
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80448508 bytes 53922 pkt (dropped 0, overlimits 4490 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5249 borrowed: 0 giants: 0
+ tokens: 5540 ctokens: 5540
+
+class htb 1:20 parent 1:1 prio 0 rate 5750Kbit ceil 5750Kbit burst 1599b cburst 1599b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:00.059 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139768151 bytes 93185 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 165 ctokens: 165
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80448683 bytes 53923 pkt (dropped 0, overlimits 4490 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5250 borrowed: 0 giants: 0
+ tokens: 5106 ctokens: 5106
+
+class htb 1:20 parent 1:1 prio 0 rate 5430Kbit ceil 5430Kbit burst 1599b cburst 1599b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 798 bytes 19 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 19 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:01.079 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139866939 bytes 93264 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 156 ctokens: 156
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547429 bytes 54001 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5328 borrowed: 0 giants: 0
+ tokens: -868 ctokens: -868
+
+class htb 1:20 parent 1:1 prio 0 rate 5210Kbit ceil 5210Kbit burst 1599b cburst 1599b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 840 bytes 20 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 20 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:02.102 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139866981 bytes 93265 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547429 bytes 54001 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5328 borrowed: 0 giants: 0
+ tokens: -868 ctokens: -868
+
+class htb 1:20 parent 1:1 prio 0 rate 5050Kbit ceil 5050Kbit burst 1598b cburst 1598b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 882 bytes 21 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 21 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:03.123 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139867023 bytes 93266 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547429 bytes 54001 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5328 borrowed: 0 giants: 0
+ tokens: -868 ctokens: -868
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 924 bytes 22 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 22 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:04.145 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139867023 bytes 93266 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547429 bytes 54001 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5328 borrowed: 0 giants: 0
+ tokens: -868 ctokens: -868
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 924 bytes 22 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 22 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:05.165 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139867023 bytes 93266 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547429 bytes 54001 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5328 borrowed: 0 giants: 0
+ tokens: -868 ctokens: -868
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 924 bytes 22 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 22 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:06.188 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139867089 bytes 93267 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 178 ctokens: 178
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547495 bytes 54002 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5329 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 924 bytes 22 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 22 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:07.209 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139867089 bytes 93267 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 178 ctokens: 178
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80547495 bytes 54002 pkt (dropped 0, overlimits 4541 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5329 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 924 bytes 22 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 22 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:08.231 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139877168 bytes 93293 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 47 ctokens: 47
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80557532 bytes 54027 pkt (dropped 0, overlimits 4546 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5354 borrowed: 0 giants: 0
+ tokens: 1737 ctokens: 1737
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 966 bytes 23 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 23 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:09.251 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139877276 bytes 93295 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80557598 bytes 54028 pkt (dropped 0, overlimits 4546 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5355 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 1008 bytes 24 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 24 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:10.275 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80557598 bytes 54028 pkt (dropped 0, overlimits 4546 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5355 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 1050 bytes 25 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 25 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:11.299 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80557598 bytes 54028 pkt (dropped 0, overlimits 4546 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5355 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 1050 bytes 25 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 25 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:12.321 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80557598 bytes 54028 pkt (dropped 0, overlimits 4546 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5355 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 1050 bytes 25 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 25 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+
+=== TIMESTAMP 2026-11-28T04:14:13.346 ===
+class htb 1:1 root rate 1Gbit ceil 1Gbit burst 1375b cburst 1375b 
+ Sent 139877318 bytes 93296 pkt (dropped 0, overlimits 5744 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 0 borrowed: 0 giants: 0
+ tokens: 181 ctokens: 181
+
+class htb 1:10 parent 1:1 prio 0 rate 34840Kbit ceil 34840Kbit burst 1593b cburst 1593b 
+ Sent 80557598 bytes 54028 pkt (dropped 0, overlimits 4546 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 5355 borrowed: 0 giants: 0
+ tokens: 5497 ctokens: 5497
+
+class htb 1:20 parent 1:1 prio 0 rate 5Mbit ceil 5Mbit burst 1600b cburst 1600b 
+ Sent 59318670 bytes 39243 pkt (dropped 0, overlimits 2076 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 2121 borrowed: 0 giants: 0
+ tokens: -1058 ctokens: -1058
+
+class htb 1:30 parent 1:1 prio 0 rate 500Mbit ceil 500Mbit burst 1500b cburst 1500b 
+ Sent 1050 bytes 25 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+ lended: 25 borrowed: 0 giants: 0
+ tokens: 379 ctokens: 379
+

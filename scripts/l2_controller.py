@@ -1,13 +1,39 @@
 #!/usr/bin/env python3
-import subprocess, time, re, sys, csv, os
+"""L-2 airtime-fairness controller (user space). Run as root.
+
+Every second (one "tick"):
+  1. read tx bitrate and cumulative tx bytes of A and B from `iw dev <if> station dump`
+  2. estimate the airtime each station used since the previous tick (PDF definition):
+         airtime_i = delta_tx_bytes_i * 8 / tx_bitrate_i
+  3. smooth the bitrate with an EWMA and set each station's HTB cap in proportion to its bitrate:
+         cap_i = max(FLOOR, SHARE * EFF_i * ewma_bitrate_i)          SHARE = 1/2 for two stations
+     EFF_i = throughput alone / bitrate alone, measured in L-1 (printed by analysis/week1.py).
+     EFF_i * bitrate_i is what station i reaches with the whole channel, so a cap of
+     SHARE * EFF_i * bitrate_i lets it use at most SHARE of the airtime.
+  4. append one CSV row: inputs, estimated airtime, and the caps that were set (the decision).
+
+Usage:
+    sudo python3 scripts/l2_controller.py logs/<session>/controller_log.csv
+    options: --eff-a 0.536 --eff-b 0.360 --alpha 0.3 --floor 5 --share 0.5 --if wlp0s20f3
+Stop with Ctrl-C or SIGTERM: the HTB qdisc is removed and the interface returns to noqueue.
+"""
+import argparse
+import csv
+import os
+import re
+import signal
+import subprocess
+import sys
+import time
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CONFIG_FILE = os.path.join(BASE_DIR, "config", "general.conf")
 
+
 def load_config(path):
     conf = {}
     if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
+        with open(path, encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if line and not line.startswith("#") and "=" in line:
@@ -15,82 +41,120 @@ def load_config(path):
                     conf[k.strip()] = v.strip().strip('"').strip("'")
     return conf
 
-config = load_config(CONFIG_FILE)
 
-WLAN_IF = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].endswith(".csv") else config.get("WLAN_IF", "wlp0s20f3")
-LOG_FILE = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].endswith(".csv") else (sys.argv[2] if len(sys.argv) > 2 else "l2_controller_log.csv")
-MAC_A = config.get("CLIENT_A_MAC", "38:68:93:37:85:ed").lower()
-MAC_B = config.get("CLIENT_B_MAC", "10:63:c8:c1:5a:81").lower()
-IP_A = config.get("CLIENT_A_IP", "192.168.50.11")
-IP_B = config.get("CLIENT_B_IP", "192.168.50.12")
+def tc(*args, check=True):
+    subprocess.run(["tc", *args], check=check, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-ALPHA = 0.3
-FLOOR_MBPS = 5.0
-EFFICIENCY = 0.65
 
-def run(cmd):
-    return subprocess.check_output(cmd, shell=True, text=True, stderr=subprocess.DEVNULL)
+def setup_htb(dev, ip_a, ip_b):
+    """Root HTB: 1:10 = traffic to A, 1:20 = traffic to B, 1:30 = everything else (uncapped)."""
+    tc("qdisc", "del", "dev", dev, "root", check=False)
+    tc("qdisc", "add", "dev", dev, "root", "handle", "1:", "htb", "default", "30")
+    tc("class", "add", "dev", dev, "parent", "1:", "classid", "1:1", "htb", "rate", "1000mbit")
+    for cid in ("1:10", "1:20", "1:30"):
+        tc("class", "add", "dev", dev, "parent", "1:1", "classid", cid, "htb", "rate", "500mbit", "ceil", "500mbit")
+    for ip, cid in ((ip_a, "1:10"), (ip_b, "1:20")):
+        tc("filter", "add", "dev", dev, "protocol", "ip", "parent", "1:0", "prio", "1",
+           "u32", "match", "ip", "dst", f"{ip}/32", "flowid", cid)
 
-def setup_htb():
-    subprocess.run(f"sudo tc qdisc del dev {WLAN_IF} root", shell=True, stderr=subprocess.DEVNULL)
-    run(f"sudo tc qdisc add dev {WLAN_IF} root handle 1: htb default 30")
-    run(f"sudo tc class add dev {WLAN_IF} parent 1: classid 1:1 htb rate 1000mbit")
-    run(f"sudo tc class add dev {WLAN_IF} parent 1:1 classid 1:10 htb rate 500mbit ceil 500mbit")
-    run(f"sudo tc class add dev {WLAN_IF} parent 1:1 classid 1:20 htb rate 500mbit ceil 500mbit")
-    run(f"sudo tc class add dev {WLAN_IF} parent 1:1 classid 1:30 htb rate 500mbit ceil 500mbit")
-    run(f"sudo tc filter add dev {WLAN_IF} protocol ip parent 1:0 prio 1 u32 match ip dst {IP_A}/32 flowid 1:10")
-    run(f"sudo tc filter add dev {WLAN_IF} protocol ip parent 1:0 prio 1 u32 match ip dst {IP_B}/32 flowid 1:20")
 
-def parse_stations():
-    out = run(f"iw dev {WLAN_IF} station dump")
-    stats = {}
-    cur_mac = None
+def set_cap(dev, classid, mbps):
+    tc("class", "change", "dev", dev, "parent", "1:1", "classid", classid,
+       "htb", "rate", f"{mbps:.2f}mbit", "ceil", f"{mbps:.2f}mbit")
+
+
+def read_stations(dev):
+    """{mac: (tx_bytes, tx_bitrate Mbit/s)} for every associated station."""
+    out = subprocess.run(["iw", "dev", dev, "station", "dump"], capture_output=True, text=True).stdout
+    stats, mac = {}, None
     for line in out.splitlines():
-        m_mac = re.match(r"Station\s+([0-9a-f:]{17})", line)
-        if m_mac:
-            cur_mac = m_mac.group(1).lower()
-            stats[cur_mac] = {"tx_bytes": 0, "tx_bitrate": 6.0}
-        elif cur_mac:
-            m_bytes = re.search(r"tx bytes:\s+(\d+)", line)
-            m_rate = re.search(r"tx bitrate:\s+([\d.]+)\s+MBit/s", line)
-            if m_bytes:
-                stats[cur_mac]["tx_bytes"] = int(m_bytes.group(1))
-            if m_rate:
-                stats[cur_mac]["tx_bitrate"] = float(m_rate.group(1))
-    return stats
+        m = re.match(r"Station\s+([0-9a-f:]{17})", line)
+        if m:
+            mac = m.group(1).lower()
+            stats[mac] = [None, None]
+        elif mac:
+            m = re.search(r"tx bytes:\s+(\d+)", line)
+            if m:
+                stats[mac][0] = int(m.group(1))
+            m = re.search(r"tx bitrate:\s+([\d.]+)\s+MBit/s", line)
+            if m:
+                stats[mac][1] = float(m.group(1))
+    return {k: tuple(v) for k, v in stats.items() if None not in v}
 
-setup_htb()
-prev = parse_stations()
-ema_rate = {MAC_A: None, MAC_B: None}
 
-with open(LOG_FILE, "w", newline="") as f:
-    writer = csv.writer(f)
-    writer.writerow(["timestamp", "bitrate_A_mbps", "bitrate_B_mbps", "airtime_A_s", "airtime_B_s", "cap_A_mbps", "cap_B_mbps"])
+def main():
+    conf = load_config(CONFIG_FILE)
+    ap = argparse.ArgumentParser(description="L-2 airtime-fairness controller")
+    ap.add_argument("log", nargs="?", default="controller_log.csv", help="CSV log (put it in the session folder)")
+    ap.add_argument("--if", dest="dev", default=conf.get("WLAN_IF", "wlp0s20f3"))
+    ap.add_argument("--eff-a", type=float, default=0.536, help="A: throughput alone / bitrate alone (L-1)")
+    ap.add_argument("--eff-b", type=float, default=0.360, help="B: throughput alone / bitrate alone (L-1)")
+    ap.add_argument("--alpha", type=float, default=0.3, help="EWMA weight of the newest bitrate sample")
+    ap.add_argument("--floor", type=float, default=5.0, help="minimum cap in Mbit/s, so no station stalls")
+    ap.add_argument("--share", type=float, default=0.5, help="airtime share per station (1/N)")
+    args = ap.parse_args()
+    if os.geteuid() != 0:
+        sys.exit("run as root: sudo python3 scripts/l2_controller.py ...")
+
+    st = {  # per station: MAC, IP, HTB class, efficiency, EWMA bitrate, current cap
+        "A": dict(mac=conf.get("CLIENT_A_MAC", "38:68:93:37:85:ed").lower(), ip=conf.get("CLIENT_A_IP", "192.168.50.11"),
+                  cls="1:10", eff=args.eff_a, ewma=None, cap=None),
+        "B": dict(mac=conf.get("CLIENT_B_MAC", "10:63:c8:c1:5a:81").lower(), ip=conf.get("CLIENT_B_IP", "192.168.50.12"),
+                  cls="1:20", eff=args.eff_b, ewma=None, cap=None),
+    }
+    params = (f"l2_controller dev={args.dev} alpha={args.alpha} floor={args.floor} share={args.share} "
+              f"eff_A={args.eff_a} eff_B={args.eff_b} A={st['A']['mac']}/{st['A']['ip']} B={st['B']['mac']}/{st['B']['ip']} "
+              f"started={time.strftime('%Y-%m-%dT%H:%M:%S')}")
+
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))   # SIGTERM -> finally block below
+    cols =["time", "dt_s"] + [f"{c}_{n}" for n in "AB" for c in
+            ("bitrate", "ewma")] + ["dbytes_A", "dbytes_B", "airtime_A_s", "airtime_B_s", "air_frac_A", "air_frac_B",
+                                    "air_share_B_pct", "cap_A_mbps", "cap_B_mbps"]
+    ticks = 0
     try:
-        while True:
-            time.sleep(1.0)
-            cur = parse_stations()
-            if MAC_A not in cur or MAC_B not in cur:
-                continue
-            d_bytes_a = max(0, cur[MAC_A]["tx_bytes"] - prev.get(MAC_A, cur[MAC_A])["tx_bytes"])
-            d_bytes_b = max(0, cur[MAC_B]["tx_bytes"] - prev.get(MAC_B, cur[MAC_B])["tx_bytes"])
-            r_a = cur[MAC_A]["tx_bitrate"]
-            r_b = cur[MAC_B]["tx_bitrate"]
-
-            ema_rate[MAC_A] = r_a if ema_rate[MAC_A] is None else ALPHA * r_a + (1 - ALPHA) * ema_rate[MAC_A]
-            ema_rate[MAC_B] = r_b if ema_rate[MAC_B] is None else ALPHA * r_b + (1 - ALPHA) * ema_rate[MAC_B]
-
-            air_a = (d_bytes_a * 8) / (r_a * 1e6) if r_a > 0 else 0
-            air_b = (d_bytes_b * 8) / (r_b * 1e6) if r_b > 0 else 0
-
-            cap_a = max(FLOOR_MBPS, 0.5 * ema_rate[MAC_A] * EFFICIENCY)
-            cap_b = max(FLOOR_MBPS, 0.5 * ema_rate[MAC_B] * EFFICIENCY)
-
-            run(f"sudo tc class change dev {WLAN_IF} parent 1:1 classid 1:10 htb rate {cap_a:.2f}mbit ceil {cap_a:.2f}mbit")
-            run(f"sudo tc class change dev {WLAN_IF} parent 1:1 classid 1:20 htb rate {cap_b:.2f}mbit ceil {cap_b:.2f}mbit")
-
-            writer.writerow([time.time(), r_a, r_b, round(air_a, 4), round(air_b, 4), round(cap_a, 2), round(cap_b, 2)])
-            f.flush()
-            prev = cur
+        setup_htb(args.dev, st["A"]["ip"], st["B"]["ip"])
+        with open(args.log, "w", newline="") as f:
+            f.write(f"# {params}\n")
+            w = csv.DictWriter(f, fieldnames=cols)
+            w.writeheader()
+            prev, t_prev = read_stations(args.dev), time.monotonic()
+            next_tick = t_prev + 1.0
+            print(params, flush=True)
+            while True:
+                time.sleep(max(0.0, next_tick - time.monotonic()))
+                next_tick += 1.0
+                cur, now = read_stations(args.dev), time.monotonic()
+                dt, t_prev = max(now - t_prev, 1e-3), now
+                row = {"time": f"{time.time():.3f}", "dt_s": f"{dt:.3f}"}
+                for n, s in st.items():
+                    if s["mac"] not in cur:          # not associated: keep the previous cap
+                        continue
+                    tx_bytes, rate = cur[s["mac"]]
+                    d = max(0, tx_bytes - prev[s["mac"]][0]) if s["mac"] in prev else 0
+                    air = d * 8 / (rate * 1e6) if rate > 0 else 0.0
+                    s["ewma"] = rate if s["ewma"] is None else args.alpha * rate + (1 - args.alpha) * s["ewma"]
+                    cap = max(args.floor, args.share * s["eff"] * s["ewma"])
+                    set_cap(args.dev, s["cls"], cap)
+                    s["cap"] = cap
+                    row.update({f"bitrate_{n}": rate, f"ewma_{n}": f"{s['ewma']:.2f}", f"dbytes_{n}": d,
+                                f"airtime_{n}_s": f"{air:.4f}", f"air_frac_{n}": f"{air / dt:.4f}",
+                                f"cap_{n}_mbps": f"{cap:.2f}"})
+                air_a, air_b = float(row.get("airtime_A_s", 0)), float(row.get("airtime_B_s", 0))
+                if air_a + air_b > 0:
+                    row["air_share_B_pct"] = f"{100 * air_b / (air_a + air_b):.1f}"
+                w.writerow(row)
+                f.flush()
+                prev, ticks = cur, ticks + 1
+                print(f"\r{time.strftime('%H:%M:%S')} | A {row.get('bitrate_A', '-'):>5} Mb/s air {row.get('air_frac_A', '-'):>6}"
+                      f" cap {row.get('cap_A_mbps', '-'):>6} | B {row.get('bitrate_B', '-'):>5} Mb/s air {row.get('air_frac_B', '-'):>6}"
+                      f" cap {row.get('cap_B_mbps', '-'):>6} | B share {row.get('air_share_B_pct', '-'):>5} %   ",
+                      end="", flush=True)
     except KeyboardInterrupt:
-        subprocess.run(f"sudo tc qdisc del dev {WLAN_IF} root", shell=True, stderr=subprocess.DEVNULL)
+        pass
+    finally:
+        tc("qdisc", "del", "dev", args.dev, "root", check=False)
+        print(f"\n{ticks} ticks logged to {args.log}; HTB removed from {args.dev}", flush=True)
+
+
+if __name__ == "__main__":
+    main()

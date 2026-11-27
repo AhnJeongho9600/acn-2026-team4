@@ -15,6 +15,7 @@ Mean and variance are taken over the repetitions r1..rN (sample variance, n-1).
 If a session was repeated after a failure, the latest folder of that condition/rep is used.
 """
 import argparse
+import csv
 import os
 import re
 import statistics
@@ -91,8 +92,26 @@ def airtime(samples, mac):
     return total
 
 
+def mean_bitrate(samples, mac):
+    """Mean tx bitrate (Mbit/s) over the seconds in which the station really received traffic."""
+    rates = [c[mac]["rate"] for p, c in zip(samples, samples[1:])
+             if "bytes" in p.get(mac, {}) and {"bytes", "rate"} <= c.get(mac, {}).keys()
+             and c[mac]["bytes"] - p[mac]["bytes"] >= MIN_BYTES_PER_S]
+    return statistics.mean(rates) if rates else None
+
+
+def iperf_file(folder, who):
+    """iperf3 output of client `who` (A or B) in a session folder; L-1 AB sessions use iperf3_AB_<who>.txt."""
+    for name in (f"iperf3_{who}.txt", f"iperf3_AB_{who}.txt"):
+        if os.path.exists(os.path.join(folder, name)):
+            return os.path.join(folder, name)
+    return os.path.join(folder, f"iperf3_{who}.txt")
+
+
 def iperf_mbps(path):
-    """Receiver throughput in Mbit/s from an iperf3 client output, None if missing or failed."""
+    """Receiver throughput in Mbit/s from an iperf3 client output, None if missing or failed.
+    The receiver line is timed by the client's clock; the AP's clock ran ~8 % slow in Week 1,
+    so the sender line (timed on the AP) is not used."""
     if not os.path.exists(path):
         return None
     value = None
@@ -215,16 +234,22 @@ def p2(logs):
 def l1(sessions):
     print("== L-1  Performance anomaly")
     ratios, shares_b = [], []
+    alone = {"A": ([], []), "B": ([], [])}          # per client: (throughput alone, bitrate alone) per rep
     reps = sorted({rep for (item, _, rep) in sessions if item == "L-1"})
     for rep in reps:
         a_alone = sessions.get(("L-1", "A_alone", rep))
-        ab = sessions.get(("L-1", "AB_concurrent", rep))
+        b_alone = sessions.get(("L-1", "B_alone", rep))
+        ab = sessions.get(("L-1", "AB", rep)) or sessions.get(("L-1", "AB_concurrent", rep))
+        for who, mac, folder in (("A", MAC_A, a_alone), ("B", MAC_B, b_alone)):
+            if folder:
+                alone[who][0].append(iperf_mbps(iperf_file(folder, who)))
+                alone[who][1].append(mean_bitrate(read_station_dump(os.path.join(folder, "station_dump.txt")), mac))
         if not (a_alone and ab):
-            print(f"  r{rep}: A_alone or AB_concurrent missing")
+            print(f"  r{rep}: A_alone or AB missing")
             continue
-        t_a_alone = iperf_mbps(os.path.join(a_alone, "iperf3_A.txt"))
-        t_a = iperf_mbps(os.path.join(ab, "iperf3_A.txt"))
-        t_b = iperf_mbps(os.path.join(ab, "iperf3_B.txt"))
+        t_a_alone = iperf_mbps(iperf_file(a_alone, "A"))
+        t_a = iperf_mbps(iperf_file(ab, "A"))
+        t_b = iperf_mbps(iperf_file(ab, "B"))
         samples = read_station_dump(os.path.join(ab, "station_dump.txt"))
         air_a, air_b = airtime(samples, MAC_A), airtime(samples, MAC_B)
         ratio = (t_a + t_b) / t_a_alone * 100 if None not in (t_a, t_b, t_a_alone) else None
@@ -235,6 +260,13 @@ def l1(sessions):
               f" -> ratio {fmt(ratio, 1)} % | airtime A {air_a:.1f} s, B {air_b:.1f} s -> B share {fmt(share, 1)} %")
     print(f"  -> (A+B)/A alone: {mean_var(ratios)} %")
     print(f"  -> B airtime share (AB): {mean_var(shares_b)} %")
+    # Efficiency = throughput alone / bitrate alone (means over reps). Used as EFF_A / EFF_B by
+    # scripts/l2_controller.py: a station capped at 1/2 * EFF * bitrate uses at most half the airtime.
+    for who in ("A", "B"):
+        thr, rate = ([v for v in vals if v is not None] for vals in alone[who])
+        if thr and rate:
+            print(f"  -> {who} alone: throughput {mean_var(thr)} Mbit/s, bitrate {mean_var(rate)} Mbit/s"
+                  f" -> efficiency {statistics.mean(thr) / statistics.mean(rate):.3f}")
 
 
 def l2(sessions):
@@ -247,21 +279,40 @@ def l2(sessions):
         if not (off and on):
             print(f"  r{rep}: ctrl_off or ctrl_on missing")
             continue
-        agg = {}
+        agg, thr, share = {}, {}, {}
         for key, folder in (("off", off), ("on", on)):
-            ta = iperf_mbps(os.path.join(folder, "iperf3_A.txt"))
-            tb = iperf_mbps(os.path.join(folder, "iperf3_B.txt"))
+            ta = iperf_mbps(iperf_file(folder, "A"))
+            tb = iperf_mbps(iperf_file(folder, "B"))
+            thr[key] = (ta, tb)
             agg[key] = ta + tb if None not in (ta, tb) else None
-        samples = read_station_dump(os.path.join(on, "station_dump.txt"))
-        air_a, air_b = airtime(samples, MAC_A), airtime(samples, MAC_B)
+            samples = read_station_dump(os.path.join(folder, "station_dump.txt"))
+            air_a, air_b = airtime(samples, MAC_A), airtime(samples, MAC_B)
+            share[key] = air_b / (air_a + air_b) * 100 if air_a + air_b > 0 else None
         gain = (agg["on"] - agg["off"]) / agg["off"] * 100 if None not in agg.values() else None
-        share = air_b / (air_a + air_b) * 100 if air_a + air_b > 0 else None
         gains.append(gain)
-        shares_b.append(share)
-        print(f"  r{rep}: aggregate off {fmt(agg['off'])} -> on {fmt(agg['on'])} Mbit/s, gain {fmt(gain, 1)} %"
-              f" | B airtime share (on) {fmt(share, 1)} %")
+        shares_b.append(share["on"])
+        print(f"  r{rep}: off A {fmt(thr['off'][0])} + B {fmt(thr['off'][1])} = {fmt(agg['off'])}"
+              f" -> on A {fmt(thr['on'][0])} + B {fmt(thr['on'][1])} = {fmt(agg['on'])} Mbit/s, gain {fmt(gain, 1)} %"
+              f" | B airtime share off {fmt(share['off'], 1)} % -> on {fmt(share['on'], 1)} %")
+        caps = controller_caps(os.path.join(on, "controller_log.csv"))
+        if caps:
+            print(f"       controller: {caps}")
     print(f"  -> gain: {mean_var(gains)} %")
     print(f"  -> B airtime share with controller on: {mean_var(shares_b)} %")
+
+
+def controller_caps(path):
+    """Short summary of a controller_log.csv written by scripts/l2_controller.py."""
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        params = f.readline().strip("# \n")
+        rows = list(csv.DictReader(f))
+    if not rows:
+        return params + " (no ticks)"
+    cap_a = statistics.mean(float(r["cap_A_mbps"]) for r in rows)
+    cap_b = statistics.mean(float(r["cap_B_mbps"]) for r in rows)
+    return f"{len(rows)} ticks, mean cap A {cap_a:.1f} / B {cap_b:.1f} Mbit/s ({params})"
 
 
 def busy_table(sessions):
@@ -283,8 +334,8 @@ def main():
     print(f"logs: {logs}  ({len(sessions)} Week-1 session folders)\n")
     p1(sessions, args.plot)
     p2(logs)
-    #l1(sessions)
-    #l2(sessions)
+    l1(sessions)
+    l2(sessions)
     busy_table(sessions)
 
 
