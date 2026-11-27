@@ -179,7 +179,7 @@ def p1(sessions, plot_file):
         if len(pts) < 10:
             print(f"  r{rep}: too few samples with traffic ({len(pts)}) - {os.path.basename(path)}")
             continue
-        start = statistics.median(r for _, r in pts[:30])          # walk starts 1 m from the AP
+        start = statistics.median(r for _, r in pts[:120])         # walk starts 1 m from the AP (2-min baseline window)
         bins = {}
         for s, r in pts:
             bins.setdefault(int(round(s)), []).append(r)
@@ -217,13 +217,17 @@ def p2(logs):
         print("  1_measurement_log.xlsx not found in logs/ or report/")
         return
     dists = {}
+    cond_map = {"12mbps": "basic12", "24mbps": "basic24", "basic12": "basic12", "basic24": "basic24", "default": "default"}
     for row in read_xlsx_rows(path):
         notes = row.get("K", "")
         if row.get("C", "").strip() != "P-2" or "example row" in notes:
             continue
-        m = re.search(r"dist\s*=\s*([0-9.]+)", notes)
+        m = re.search(r"dist\s*=\s*([0-9]+(?:[.,][0-9]+)?)", notes)
         if m:
-            dists.setdefault(row.get("D", "").strip(), []).append(float(m.group(1)))
+            raw_cond = row.get("D", "").strip()
+            norm_cond = cond_map.get(raw_cond, raw_cond)
+            val = float(m.group(1).replace(",", "."))
+            dists.setdefault(norm_cond, []).append(val)
     if not dists:
         print("  no P-2 rows with 'dist=' in Notes yet")
     for cond in ("default", "basic12", "basic24"):
