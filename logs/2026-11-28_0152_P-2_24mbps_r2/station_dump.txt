@@ -1,0 +1,2099 @@
+=== TIMESTAMP 2026-11-28T01:52:34.819 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	6 ms
+	rx bytes:	1151404
+	rx packets:	11452
+	tx bytes:	47579293
+	tx packets:	17987
+	tx retries:	3386
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-48 [-50, -48] dBm
+	tx bitrate:	65.0 MBit/s MCS 7
+	tx duration:	0 us
+	rx bitrate:	58.5 MBit/s MCS 6
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	69 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798354823 ms
+=== TIMESTAMP 2026-11-28T01:52:35.837 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1 ms
+	rx bytes:	1172416
+	rx packets:	11666
+	tx bytes:	48409707
+	tx packets:	18332
+	tx retries:	3517
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-46 [-46, -49] dBm
+	signal avg:	-48 dBm
+	tx bitrate:	58.5 MBit/s MCS 6
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	70 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798355841 ms
+=== TIMESTAMP 2026-11-28T01:52:36.856 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	3 ms
+	rx bytes:	1197602
+	rx packets:	11925
+	tx bytes:	49565361
+	tx packets:	18721
+	tx retries:	3571
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-52 [-54, -52] dBm
+	signal avg:	-48 dBm
+	tx bitrate:	58.5 MBit/s MCS 6
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	71 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798356859 ms
+=== TIMESTAMP 2026-11-28T01:52:37.874 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	15 ms
+	rx bytes:	1221644
+	rx packets:	12170
+	tx bytes:	50587469
+	tx packets:	19123
+	tx retries:	3624
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-49 [-51, -49] dBm
+	signal avg:	-54 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	58.5 MBit/s MCS 6
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	72 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798357878 ms
+=== TIMESTAMP 2026-11-28T01:52:38.893 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	0 ms
+	rx bytes:	1249606
+	rx packets:	12459
+	tx bytes:	52077281
+	tx packets:	19525
+	tx retries:	3653
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-48 [-54, -48] dBm
+	signal avg:	-53 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	73 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798358897 ms
+=== TIMESTAMP 2026-11-28T01:52:39.914 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	2 ms
+	rx bytes:	1270242
+	rx packets:	12669
+	tx bytes:	52821001
+	tx packets:	19889
+	tx retries:	3733
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-53 [-53, -54] dBm
+	signal avg:	-53 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	74 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798359917 ms
+=== TIMESTAMP 2026-11-28T01:52:40.933 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1 ms
+	rx bytes:	1291688
+	rx packets:	12888
+	tx bytes:	53836859
+	tx packets:	20252
+	tx retries:	3831
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-51 [-52, -51] dBm
+	signal avg:	-55 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	39.0 MBit/s MCS 4
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	75 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798360937 ms
+=== TIMESTAMP 2026-11-28T01:52:41.953 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	0 ms
+	rx bytes:	1311730
+	rx packets:	13093
+	tx bytes:	54745551
+	tx packets:	20598
+	tx retries:	3870
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-53 [-56, -53] dBm
+	signal avg:	-55 dBm
+	tx bitrate:	39.0 MBit/s MCS 4
+	tx duration:	0 us
+	rx bitrate:	39.0 MBit/s MCS 4
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	76 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798361956 ms
+=== TIMESTAMP 2026-11-28T01:52:42.974 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	0 ms
+	rx bytes:	1338862
+	rx packets:	13371
+	tx bytes:	55960257
+	tx packets:	21017
+	tx retries:	3911
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-53 [-53, -55] dBm
+	signal avg:	-55 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	77 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798362978 ms
+=== TIMESTAMP 2026-11-28T01:52:43.994 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1 ms
+	rx bytes:	1366222
+	rx packets:	13651
+	tx bytes:	57086735
+	tx packets:	21454
+	tx retries:	3987
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-55 [-62, -55] dBm
+	signal avg:	-56 dBm
+	tx bitrate:	58.5 MBit/s MCS 6
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	78 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798363998 ms
+=== TIMESTAMP 2026-11-28T01:52:45.014 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	2 ms
+	rx bytes:	1395120
+	rx packets:	13946
+	tx bytes:	58146475
+	tx packets:	21940
+	tx retries:	4082
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-55 [-61, -55] dBm
+	signal avg:	-59 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	58.5 MBit/s MCS 6
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	79 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798365017 ms
+=== TIMESTAMP 2026-11-28T01:52:46.034 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	12 ms
+	rx bytes:	1414790
+	rx packets:	14149
+	tx bytes:	59036315
+	tx packets:	22252
+	tx retries:	4131
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-58 [-58, -59] dBm
+	signal avg:	-58 dBm
+	tx bitrate:	39.0 MBit/s MCS 4
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	80 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798366038 ms
+=== TIMESTAMP 2026-11-28T01:52:47.053 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	0 ms
+	rx bytes:	1436390
+	rx packets:	14371
+	tx bytes:	59979387
+	tx packets:	22560
+	tx retries:	4160
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-58 [-58, -60] dBm
+	signal avg:	-58 dBm
+	tx bitrate:	39.0 MBit/s MCS 4
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	81 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798367057 ms
+=== TIMESTAMP 2026-11-28T01:52:48.072 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1 ms
+	rx bytes:	1455626
+	rx packets:	14567
+	tx bytes:	60707137
+	tx packets:	22873
+	tx retries:	4262
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-58 [-62, -58] dBm
+	signal avg:	-62 dBm
+	tx bitrate:	52.0 MBit/s MCS 5
+	tx duration:	0 us
+	rx bitrate:	52.0 MBit/s MCS 5
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	82 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798368076 ms
+=== TIMESTAMP 2026-11-28T01:52:49.092 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1 ms
+	rx bytes:	1473658
+	rx packets:	14751
+	tx bytes:	61503431
+	tx packets:	23158
+	tx retries:	4306
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-64 [-64, -65] dBm
+	signal avg:	-61 dBm
+	tx bitrate:	39.0 MBit/s MCS 4
+	tx duration:	0 us
+	rx bitrate:	39.0 MBit/s MCS 4
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	83 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798369096 ms
+=== TIMESTAMP 2026-11-28T01:52:50.111 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	16 ms
+	rx bytes:	1487274
+	rx packets:	14891
+	tx bytes:	62020253
+	tx packets:	23359
+	tx retries:	4362
+	tx failed:	1
+	rx drop misc:	0
+	signal:  	-66 [-68, -66] dBm
+	signal avg:	-61 dBm
+	tx bitrate:	39.0 MBit/s MCS 4
+	tx duration:	0 us
+	rx bitrate:	39.0 MBit/s MCS 4
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	84 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798370115 ms
+=== TIMESTAMP 2026-11-28T01:52:51.155 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1 ms
+	rx bytes:	1496220
+	rx packets:	14995
+	tx bytes:	62312353
+	tx packets:	23503
+	tx retries:	4413
+	tx failed:	3
+	rx drop misc:	0
+	signal:  	-68 [-68, -68] dBm
+	signal avg:	-68 dBm
+	tx bitrate:	26.0 MBit/s MCS 3
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	85 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798371159 ms
+=== TIMESTAMP 2026-11-28T01:52:52.175 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	13 ms
+	rx bytes:	1500452
+	rx packets:	15051
+	tx bytes:	62440593
+	tx packets:	23563
+	tx retries:	4428
+	tx failed:	3
+	rx drop misc:	0
+	signal:  	-70 [-75, -70] dBm
+	signal avg:	-66 dBm
+	tx bitrate:	26.0 MBit/s MCS 3
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	86 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798372178 ms
+=== TIMESTAMP 2026-11-28T01:52:53.194 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	83 ms
+	rx bytes:	1503266
+	rx packets:	15088
+	tx bytes:	62493165
+	tx packets:	23585
+	tx retries:	4432
+	tx failed:	3
+	rx drop misc:	0
+	signal:  	-69 [-71, -69] dBm
+	signal avg:	-71 dBm
+	tx bitrate:	26.0 MBit/s MCS 3
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	87 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798373198 ms
+=== TIMESTAMP 2026-11-28T01:52:54.214 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	0 ms
+	rx bytes:	1506598
+	rx packets:	15130
+	tx bytes:	62579485
+	tx packets:	23629
+	tx retries:	4439
+	tx failed:	3
+	rx drop misc:	0
+	signal:  	-67 [-67, -71] dBm
+	signal avg:	-71 dBm
+	tx bitrate:	19.5 MBit/s MCS 2
+	tx duration:	0 us
+	rx bitrate:	2.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	88 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798374217 ms
+=== TIMESTAMP 2026-11-28T01:52:55.233 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	214 ms
+	rx bytes:	1508140
+	rx packets:	15151
+	tx bytes:	62626523
+	tx packets:	23654
+	tx retries:	4446
+	tx failed:	3
+	rx drop misc:	0
+	signal:  	-77 [-78, -77] dBm
+	signal avg:	-69 dBm
+	tx bitrate:	19.5 MBit/s MCS 2
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	89 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798375237 ms
+=== TIMESTAMP 2026-11-28T01:52:56.276 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	79 ms
+	rx bytes:	1508574
+	rx packets:	15162
+	tx bytes:	62634193
+	tx packets:	23659
+	tx retries:	4500
+	tx failed:	10
+	rx drop misc:	0
+	signal:  	-77 [-77, -77] dBm
+	signal avg:	-72 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	90 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798376279 ms
+=== TIMESTAMP 2026-11-28T01:52:57.293 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	180 ms
+	rx bytes:	1509028
+	rx packets:	15169
+	tx bytes:	62641863
+	tx packets:	23664
+	tx retries:	4559
+	tx failed:	14
+	rx drop misc:	0
+	signal:  	-77 [-79, -77] dBm
+	signal avg:	-74 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	91 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798377296 ms
+=== TIMESTAMP 2026-11-28T01:52:58.312 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	530 ms
+	rx bytes:	1510156
+	rx packets:	15181
+	tx bytes:	62663081
+	tx packets:	23675
+	tx retries:	4698
+	tx failed:	19
+	rx drop misc:	0
+	signal:  	-76 [-76, -76] dBm
+	signal avg:	-76 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	92 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798378315 ms
+=== TIMESTAMP 2026-11-28T01:52:59.337 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	251 ms
+	rx bytes:	1510344
+	rx packets:	15183
+	tx bytes:	62667683
+	tx packets:	23678
+	tx retries:	4757
+	tx failed:	22
+	rx drop misc:	0
+	signal:  	-72 [-75, -72] dBm
+	signal avg:	-75 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	93 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798379340 ms
+=== TIMESTAMP 2026-11-28T01:53:00.362 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	622 ms
+	rx bytes:	1510532
+	rx packets:	15185
+	tx bytes:	62672199
+	tx packets:	23680
+	tx retries:	4817
+	tx failed:	26
+	rx drop misc:	0
+	signal:  	-76 [-76, -76] dBm
+	signal avg:	-73 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	94 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798380365 ms
+=== TIMESTAMP 2026-11-28T01:53:01.391 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1651 ms
+	rx bytes:	1510532
+	rx packets:	15185
+	tx bytes:	62673733
+	tx packets:	23681
+	tx retries:	4817
+	tx failed:	26
+	rx drop misc:	0
+	signal:  	-76 [-76, -76] dBm
+	signal avg:	-73 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	95 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798381395 ms
+=== TIMESTAMP 2026-11-28T01:53:02.415 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	348 ms
+	rx bytes:	1510626
+	rx packets:	15186
+	tx bytes:	62675267
+	tx packets:	23682
+	tx retries:	4847
+	tx failed:	28
+	rx drop misc:	0
+	signal:  	-76 [-76, -77] dBm
+	signal avg:	-73 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	96 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798382419 ms
+=== TIMESTAMP 2026-11-28T01:53:03.434 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	314 ms
+	rx bytes:	1510732
+	rx packets:	15187
+	tx bytes:	62675267
+	tx packets:	23682
+	tx retries:	4847
+	tx failed:	28
+	rx drop misc:	0
+	signal:  	-75 [-78, -75] dBm
+	signal avg:	-73 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	97 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798383437 ms
+=== TIMESTAMP 2026-11-28T01:53:04.453 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	117 ms
+	rx bytes:	1510920
+	rx packets:	15189
+	tx bytes:	62679783
+	tx packets:	23684
+	tx retries:	4862
+	tx failed:	29
+	rx drop misc:	0
+	signal:  	-77 [-78, -77] dBm
+	signal avg:	-76 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	98 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798384457 ms
+=== TIMESTAMP 2026-11-28T01:53:05.476 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	35 ms
+	rx bytes:	1511474
+	rx packets:	15195
+	tx bytes:	62684385
+	tx packets:	23687
+	tx retries:	4910
+	tx failed:	31
+	rx drop misc:	0
+	signal:  	-72 [-73, -72] dBm
+	signal avg:	-75 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	99 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798385480 ms
+=== TIMESTAMP 2026-11-28T01:53:06.513 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	209 ms
+	rx bytes:	1512008
+	rx packets:	15200
+	tx bytes:	62692055
+	tx packets:	23692
+	tx retries:	4962
+	tx failed:	35
+	rx drop misc:	0
+	signal:  	-79 [-81, -79] dBm
+	signal avg:	-75 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	100 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798386516 ms
+=== TIMESTAMP 2026-11-28T01:53:07.531 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	847 ms
+	rx bytes:	1512102
+	rx packets:	15201
+	tx bytes:	62695037
+	tx packets:	23693
+	tx retries:	4991
+	tx failed:	37
+	rx drop misc:	0
+	signal:  	-75 [-75, -75] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	101 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798387534 ms
+=== TIMESTAMP 2026-11-28T01:53:08.548 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	429 ms
+	rx bytes:	1512128
+	rx packets:	15202
+	tx bytes:	62695037
+	tx packets:	23693
+	tx retries:	4991
+	tx failed:	37
+	rx drop misc:	0
+	signal:  	-80 [-80, -81] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	102 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798388551 ms
+=== TIMESTAMP 2026-11-28T01:53:09.567 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1448 ms
+	rx bytes:	1512128
+	rx packets:	15202
+	tx bytes:	62695037
+	tx packets:	23693
+	tx retries:	4991
+	tx failed:	37
+	rx drop misc:	0
+	signal:  	-80 [-80, -81] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	103 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798389570 ms
+=== TIMESTAMP 2026-11-28T01:53:10.584 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	5 ms
+	rx bytes:	1512274
+	rx packets:	15205
+	tx bytes:	62696571
+	tx packets:	23694
+	tx retries:	5000
+	tx failed:	38
+	rx drop misc:	0
+	signal:  	-75 [-78, -75] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	105 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798390587 ms
+=== TIMESTAMP 2026-11-28T01:53:11.635 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	34 ms
+	rx bytes:	1512482
+	rx packets:	15213
+	tx bytes:	62696571
+	tx packets:	23694
+	tx retries:	5000
+	tx failed:	38
+	rx drop misc:	0
+	signal:  	-74 [-75, -74] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	106 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798391638 ms
+=== TIMESTAMP 2026-11-28T01:53:12.653 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	96 ms
+	rx bytes:	1512786
+	rx packets:	15223
+	tx bytes:	62696633
+	tx packets:	23695
+	tx retries:	5015
+	tx failed:	39
+	rx drop misc:	0
+	signal:  	-78 [-81, -78] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	107 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798392657 ms
+=== TIMESTAMP 2026-11-28T01:53:13.671 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	181 ms
+	rx bytes:	1513080
+	rx packets:	15230
+	tx bytes:	62699677
+	tx packets:	23697
+	tx retries:	5030
+	tx failed:	40
+	rx drop misc:	0
+	signal:  	-74 [-74, -75] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	108 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798393675 ms
+=== TIMESTAMP 2026-11-28T01:53:14.700 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	35 ms
+	rx bytes:	1513330
+	rx packets:	15237
+	tx bytes:	62701211
+	tx packets:	23698
+	tx retries:	5060
+	tx failed:	42
+	rx drop misc:	0
+	signal:  	-74 [-78, -74] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	109 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798394703 ms
+=== TIMESTAMP 2026-11-28T01:53:15.720 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	226 ms
+	rx bytes:	1513518
+	rx packets:	15239
+	tx bytes:	62705727
+	tx packets:	23700
+	tx retries:	5120
+	tx failed:	46
+	rx drop misc:	0
+	signal:  	-77 [-77, -77] dBm
+	signal avg:	-77 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	110 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798395739 ms
+=== TIMESTAMP 2026-11-28T01:53:16.755 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	419 ms
+	rx bytes:	1513706
+	rx packets:	15241
+	tx bytes:	62710243
+	tx packets:	23702
+	tx retries:	5165
+	tx failed:	49
+	rx drop misc:	0
+	signal:  	-74 [-81, -74] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	111 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798396758 ms
+=== TIMESTAMP 2026-11-28T01:53:17.772 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	562 ms
+	rx bytes:	1513988
+	rx packets:	15244
+	tx bytes:	62717741
+	tx packets:	23705
+	tx retries:	5225
+	tx failed:	53
+	rx drop misc:	0
+	signal:  	-75 [-78, -75] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	112 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798397776 ms
+=== TIMESTAMP 2026-11-28T01:53:18.802 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1592 ms
+	rx bytes:	1513988
+	rx packets:	15244
+	tx bytes:	62717741
+	tx packets:	23705
+	tx retries:	5240
+	tx failed:	54
+	rx drop misc:	0
+	signal:  	-75 [-78, -75] dBm
+	signal avg:	-76 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	113 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798398806 ms
+=== TIMESTAMP 2026-11-28T01:53:19.821 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	15 ms
+	rx bytes:	1514552
+	rx packets:	15250
+	tx bytes:	62726859
+	tx packets:	23710
+	tx retries:	5293
+	tx failed:	56
+	rx drop misc:	0
+	signal:  	-76 [-85, -76] dBm
+	signal avg:	-76 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	114 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798399824 ms
+=== TIMESTAMP 2026-11-28T01:53:20.842 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	591 ms
+	rx bytes:	1516260
+	rx packets:	15266
+	tx bytes:	62742979
+	tx packets:	23725
+	tx retries:	5444
+	tx failed:	63
+	rx drop misc:	0
+	signal:  	-78 [-83, -78] dBm
+	signal avg:	-82 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	115 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798400859 ms
+=== TIMESTAMP 2026-11-28T01:53:21.882 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	268 ms
+	rx bytes:	1516448
+	rx packets:	15268
+	tx bytes:	62754860
+	tx packets:	23728
+	tx retries:	5601
+	tx failed:	73
+	rx drop misc:	0
+	signal:  	-71 [-74, -71] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	116 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798401885 ms
+=== TIMESTAMP 2026-11-28T01:53:22.905 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	261 ms
+	rx bytes:	1516542
+	rx packets:	15269
+	tx bytes:	62755110
+	tx packets:	23730
+	tx retries:	5661
+	tx failed:	77
+	rx drop misc:	0
+	signal:  	-75 [-78, -75] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	117 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798402909 ms
+=== TIMESTAMP 2026-11-28T01:53:23.937 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	260 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62764095
+	tx packets:	23733
+	tx retries:	5765
+	tx failed:	83
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	118 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798403941 ms
+=== TIMESTAMP 2026-11-28T01:53:24.970 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	1293 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62764345
+	tx packets:	23735
+	tx retries:	5870
+	tx failed:	90
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	119 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798404974 ms
+=== TIMESTAMP 2026-11-28T01:53:25.991 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	2314 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62764345
+	tx packets:	23735
+	tx retries:	5885
+	tx failed:	91
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	120 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798405995 ms
+=== TIMESTAMP 2026-11-28T01:53:27.010 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	3332 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62764345
+	tx packets:	23735
+	tx retries:	5885
+	tx failed:	91
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	121 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798407013 ms
+=== TIMESTAMP 2026-11-28T01:53:28.029 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	4351 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62764470
+	tx packets:	23736
+	tx retries:	5900
+	tx failed:	92
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	122 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798408032 ms
+=== TIMESTAMP 2026-11-28T01:53:29.047 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	5369 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766004
+	tx packets:	23737
+	tx retries:	5911
+	tx failed:	93
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	123 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798409050 ms
+=== TIMESTAMP 2026-11-28T01:53:30.065 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	6387 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766004
+	tx packets:	23737
+	tx retries:	5911
+	tx failed:	93
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	124 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798410068 ms
+=== TIMESTAMP 2026-11-28T01:53:31.083 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	7405 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766004
+	tx packets:	23737
+	tx retries:	5911
+	tx failed:	93
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	125 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798411086 ms
+=== TIMESTAMP 2026-11-28T01:53:32.102 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	8425 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766004
+	tx packets:	23737
+	tx retries:	5911
+	tx failed:	93
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	126 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798412106 ms
+=== TIMESTAMP 2026-11-28T01:53:33.121 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	9443 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766004
+	tx packets:	23737
+	tx retries:	5911
+	tx failed:	93
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	127 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798413124 ms
+=== TIMESTAMP 2026-11-28T01:53:34.140 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	10462 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766004
+	tx packets:	23737
+	tx retries:	5911
+	tx failed:	93
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	128 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798414143 ms
+=== TIMESTAMP 2026-11-28T01:53:35.158 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	11480 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	129 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798415162 ms
+=== TIMESTAMP 2026-11-28T01:53:36.177 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	12499 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	130 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798416180 ms
+=== TIMESTAMP 2026-11-28T01:53:37.196 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	13518 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	131 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798417199 ms
+=== TIMESTAMP 2026-11-28T01:53:38.214 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	14537 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	132 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798418218 ms
+=== TIMESTAMP 2026-11-28T01:53:39.245 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	15567 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-78 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	133 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798419248 ms
+=== TIMESTAMP 2026-11-28T01:53:40.262 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	16584 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	134 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798420266 ms
+=== TIMESTAMP 2026-11-28T01:53:41.281 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	17603 ms
+	rx bytes:	1516636
+	rx packets:	15270
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-73 [-77, -73] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	135 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798421284 ms
+=== TIMESTAMP 2026-11-28T01:53:42.300 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	91 ms
+	rx bytes:	1516766
+	rx packets:	15275
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-75 [-82, -75] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	136 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798422304 ms
+=== TIMESTAMP 2026-11-28T01:53:43.320 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	99 ms
+	rx bytes:	1517130
+	rx packets:	15289
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-76 [-76, -76] dBm
+	signal avg:	-80 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	137 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285911 ms
+	current time:	1795798423323 ms
+=== TIMESTAMP 2026-11-28T01:53:44.339 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	65 ms
+	rx bytes:	1517312
+	rx packets:	15296
+	tx bytes:	62766379
+	tx packets:	23740
+	tx retries:	5933
+	tx failed:	96
+	rx drop misc:	0
+	signal:  	-74 [-79, -74] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	138 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798424342 ms
+=== TIMESTAMP 2026-11-28T01:53:45.360 ===
+Station 10:63:c8:c1:5a:81 (on wlp0s20f3)
+	inactive time:	334 ms
+	rx bytes:	1517442
+	rx packets:	15301
+	tx bytes:	62767913
+	tx packets:	23741
+	tx retries:	5944
+	tx failed:	97
+	rx drop misc:	0
+	signal:  	-76 [-83, -76] dBm
+	signal avg:	-79 dBm
+	tx bitrate:	6.5 MBit/s MCS 0
+	tx duration:	0 us
+	rx bitrate:	1.0 MBit/s
+	rx duration:	0 us
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	139 seconds
+	associated at [boottime]:	47930.557s
+	associated at:	1795798285912 ms
+	current time:	1795798425364 ms

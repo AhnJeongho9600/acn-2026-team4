@@ -283,8 +283,8 @@ def main():
     print(f"logs: {logs}  ({len(sessions)} Week-1 session folders)\n")
     p1(sessions, args.plot)
     p2(logs)
-    l1(sessions)
-    l2(sessions)
+    #l1(sessions)
+    #l2(sessions)
     busy_table(sessions)
 
 
