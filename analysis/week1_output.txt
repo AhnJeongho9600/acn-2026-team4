@@ -1,0 +1,59 @@
+C:\Users\Brendan\Projets\acn-2026-team4>python3 analysis/week1.py
+logs: C:\Users\Brendan\Projets\acn-2026-team4\logs  (27 Week-1 session folders)
+
+== P-1  RSSI at which the bitrate halves
+  r1: start bitrate 65.0 Mbit/s, halves at -57 dBm (1902 samples, weakest RSSI -61 dBm) - 2026-11-27_1050_P-1_walk_r1
+  r2: start bitrate 65.0 Mbit/s, halves at -56 dBm (1402 samples, weakest RSSI -63 dBm) - 2026-11-27_1131_P-1_walk_r2
+  r3: start bitrate 65.0 Mbit/s, halves at -58 dBm (938 samples, weakest RSSI -58 dBm) - 2026-11-27_1157_P-1_walk_r3
+  -> mean -57.00, variance 1.00 (n=3) dBm
+== P-2  Association-loss distance (from logs/1_measurement_log.xlsx, Notes 'dist=<m>')
+  default: [29.88, 26.05, 25.3] m -> mean 27.08, variance 6.03 (n=3) m
+  basic12: [24.67, 24.46, 24.36] m -> mean 24.50, variance 0.03 (n=3) m
+  basic24: [24.28, 24.34, 24.21] m -> mean 24.28, variance 0.00 (n=3) m
+== L-1  Performance anomaly
+  r1: A alone 66.10 | AB: A 5.52 + B 12.40 Mbit/s -> ratio 27.1 % | airtime A 2.8 s, B 21.1 s -> B share 88.1 %
+  r2: A alone 72.70 | AB: A 10.90 + B 14.20 Mbit/s -> ratio 34.5 % | airtime A 6.5 s, B 21.5 s -> B share 76.9 %
+  r3: A alone 66.10 | AB: A 24.00 + B 9.47 Mbit/s -> ratio 50.6 % | airtime A 12.8 s, B 15.2 s -> B share 54.3 %
+  -> (A+B)/A alone: mean 37.42, variance 144.66 (n=3) %
+  -> B airtime share (AB): mean 73.14, variance 296.19 (n=3) %
+  -> A alone: throughput mean 68.30, variance 14.52 (n=3) Mbit/s, bitrate mean 127.39, variance 5.61 (n=3) Mbit/s -> efficiency 0.536
+  -> B alone: throughput mean 16.17, variance 1.60 (n=3) Mbit/s, bitrate mean 44.88, variance 17.78 (n=3) Mbit/s -> efficiency 0.360
+== L-2  Airtime-fairness controller
+  r1: off A 3.77 + B 11.40 = 15.17 -> on A 8.60 + B 5.67 = 14.27 Mbit/s, gain -5.9 % | B airtime share off 90.7 % -> on 71.4 %
+       controller: 90 ticks, mean cap A 34.8 / B 6.6 Mbit/s (l2_controller dev=wlp0s20f3 alpha=0.3 floor=5.0 share=0.5 eff_A=0.536 eff_B=0.36 A=38:68:93:37:85:ed/192.168.50.11 B=10:63:c8:c1:5a:81/192.168.50.12 started=2026-11-28T04:09:16)
+  r2: off A 3.30 + B 8.65 = 11.95 -> on A 8.82 + B 6.42 = 15.24 Mbit/s, gain 27.5 % | B airtime share off 91.8 % -> on 71.4 %
+       controller: 90 ticks, mean cap A 34.8 / B 7.3 Mbit/s (l2_controller dev=wlp0s20f3 alpha=0.3 floor=5.0 share=0.5 eff_A=0.536 eff_B=0.36 A=38:68:93:37:85:ed/192.168.50.11 B=10:63:c8:c1:5a:81/192.168.50.12 started=2026-11-28T04:12:45)
+  r3: off A 3.58 + B 9.90 = 13.48 -> on A 9.32 + B 5.63 = 14.95 Mbit/s, gain 10.9 % | B airtime share off 91.3 % -> on 68.6 %
+       controller: 90 ticks, mean cap A 34.8 / B 7.9 Mbit/s (l2_controller dev=wlp0s20f3 alpha=0.3 floor=5.0 share=0.5 eff_A=0.536 eff_B=0.36 A=38:68:93:37:85:ed/192.168.50.11 B=10:63:c8:c1:5a:81/192.168.50.12 started=2026-11-28T04:16:18)
+  -> gain: mean 10.83, variance 279.97 (n=3) %
+  -> B airtime share with controller on: mean 70.45, variance 2.65 (n=3) %
+== Channel busy (%) per session, from airtime_capture.txt (PDF 2.2)
+  2026-11-27_1050_P-1_walk_r1: 59.0
+  2026-11-27_1131_P-1_walk_r2: 59.1
+  2026-11-27_1157_P-1_walk_r3: 55.9
+  2026-11-28_0104_P-2_default_r1: 10.5
+  2026-11-28_0113_P-2_default_r2: 16.8
+  2026-11-28_0118_P-2_default_r3: 20.7
+  2026-11-28_0124_P-2_12mbps_r1: 19.5
+  2026-11-28_0132_P-2_12mbps_r2: 29.6
+  2026-11-28_0137_P-2_12mbps_r3: 11.1
+  2026-11-28_0143_P-2_24mbps_r1: 16.4
+  2026-11-28_0152_P-2_24mbps_r2: 8.6
+  2026-11-28_0154_P-2_24mbps_r3: 3.3
+  2026-11-28_0254_L-1_A_alone_r1: 54.3
+  2026-11-28_0300_L-1_A_alone_r2: 57.5
+  2026-11-28_0302_L-1_A_alone_r3: 52.5
+  2026-11-28_0313_L-1_B_alone_r1: 48.0
+  2026-11-28_0321_L-1_B_alone_r2: 48.6
+  2026-11-28_0323_L-1_B_alone_r3: 39.4
+  2026-11-28_0328_L-1_AB_r1: 45.7
+  2026-11-28_0331_L-1_AB_r2: 50.6
+  2026-11-28_0333_L-1_AB_r3: 49.6
+  2026-11-28_0407_L-2_ctrl_off_r1: 38.3
+  2026-11-28_0409_L-2_ctrl_on_r1: 29.6
+  2026-11-28_0410_L-2_ctrl_off_r2: 36.7
+  2026-11-28_0412_L-2_ctrl_on_r2: 29.4
+  2026-11-28_0414_L-2_ctrl_off_r3: 37.2
+  2026-11-28_0416_L-2_ctrl_on_r3: 28.8
+
+C:\Users\Brendan\Projets\acn-2026-team4>

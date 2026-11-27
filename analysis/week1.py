@@ -154,12 +154,16 @@ def read_xlsx_rows(path):
         for c in row.findall("m:c", ns):
             col = re.match(r"[A-Z]+", c.get("r")).group(0)
             v, t = c.find("m:v", ns), c.get("t")
-            if t == "s" and v is not None:
+            if t == "s" and v is not None and v.text is not None:
                 cells[col] = shared[int(v.text)]
             elif t == "inlineStr":
                 cells[col] = "".join(x.text or "" for x in c.iter("{%s}t" % ns["m"]))
-            elif v is not None:
+            elif v is not None and v.text is not None:
                 cells[col] = v.text
+            else:
+                f = c.find("m:f", ns)
+                if f is not None and f.text is not None:
+                    cells[col] = f.text
         rows.append(cells)
     return rows
 
@@ -219,15 +223,24 @@ def p2(logs):
     dists = {}
     cond_map = {"12mbps": "basic12", "24mbps": "basic24", "basic12": "basic12", "basic24": "basic24", "default": "default"}
     for row in read_xlsx_rows(path):
-        notes = row.get("K", "")
-        if row.get("C", "").strip() != "P-2" or "example row" in notes:
+        notes = row.get("K") or ""
+        item_c = (row.get("C") or "").strip()
+        if item_c != "P-2" or "example row" in notes:
             continue
         m = re.search(r"dist\s*=\s*([0-9]+(?:[.,][0-9]+)?)", notes)
+        m_val = None
         if m:
-            raw_cond = row.get("D", "").strip()
+            m_val = float(m.group(1).replace(",", "."))
+        elif "SQRT" in notes or "sqrt" in notes:
+            try:
+                l_val = float(str(row.get("L")).replace(",", "."))
+                m_val = round((24.0**2 + l_val**2)**0.5, 2)
+            except Exception:
+                pass
+        if m_val is not None:
+            raw_cond = (row.get("D") or "").strip()
             norm_cond = cond_map.get(raw_cond, raw_cond)
-            val = float(m.group(1).replace(",", "."))
-            dists.setdefault(norm_cond, []).append(val)
+            dists.setdefault(norm_cond, []).append(m_val)
     if not dists:
         print("  no P-2 rows with 'dist=' in Notes yet")
     for cond in ("default", "basic12", "basic24"):
