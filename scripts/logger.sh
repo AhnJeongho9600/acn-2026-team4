@@ -28,16 +28,21 @@ mkdir -p "$SESSION_DIR"
 # airtime_capture.txt: one line per second "epoch_s frames bytes airtime_us busy_pct", then a summary line.
 CAP_PID=""
 if [ "$CAPTURE" = 1 ] && ip link show "$MON_IF" >/dev/null 2>&1 && sudo -v; then
-  echo "# epoch_s frames bytes airtime_us busy_pct   (airtime_us = sum of wlan_radio.duration from tshark on $MON_IF)" > "$SESSION_DIR/airtime_capture.txt"
-  sudo tshark -i "$MON_IF" -l -T fields -E separator=' ' \
-       -e frame.time_epoch -e frame.len -e wlan_radio.duration 2>/dev/null |
-  awk '{ s = int($1)
+  echo "# epoch_s frames bytes airtime_us busy_pct frames_no_rate   (captured frames on $MON_IF; airtime_us = sum of bytes*8/rate + preamble; A-MPDU subframes reported without a rate use the last reported HT rate)" > "$SESSION_DIR/airtime_capture.txt"
+  sudo tshark -i "$MON_IF" -l -T fields -E separator=',' \
+       -e frame.time_epoch -e frame.len -e radiotap.length -e wlan.fc.type \
+       -e radiotap.mcs.index -e radiotap.datarate 2>/dev/null |
+  awk -F',' '{ s = int($1)
          if (!(s in n)) order[++k] = s
-         n[s]++; b[s] += $2
-         if ($3 != "") a[s] += $3; else u++ }
+         bytes = $2 - $3; n[s]++; b[s] += bytes                 # 802.11 frame bytes (without radiotap header)
+         rate = $6 + 0; pre = 0
+         if ($5 != "")                    { last = rate; pre = 36 }  # HT frame with its real rate: one HT preamble
+         else if ($4 == "2" && rate == 1) { rate = last }            # A-MPDU subframe without rate info
+         else                             { pre = 20 }               # legacy frame at its real rate
+         if (rate > 0) a[s] += bytes * 8 / rate + pre; else { nr[s]++; u++ } }
        END {
-         for (i = 1; i <= k; i++) { s = order[i]; printf "%d %d %d %d %.1f\n", s, n[s], b[s], a[s], a[s]/1e4; T += a[s]; F += n[s] }
-         if (k > 0) printf "# summary: seconds=%d frames=%d frames_without_duration=%d busy_pct=%.1f\n", k, F, u+0, T/(k*1e4)
+         for (i = 1; i <= k; i++) { s = order[i]; printf "%d %d %d %d %.1f %d\n", s, n[s], b[s], a[s], a[s]/1e4, nr[s]; T += a[s]; F += n[s] }
+         if (k > 0) printf "# summary: seconds=%d frames=%d frames_no_rate=%d busy_pct=%.1f\n", k, F, u+0, T/(k*1e4)
          else print "# summary: no frames captured" }' >> "$SESSION_DIR/airtime_capture.txt" &
   CAP_PID=$!
 elif [ "$CAPTURE" = 1 ]; then
