@@ -6,6 +6,8 @@ fi
 
 SESSION_DIR=$1
 WLAN_IF=${WLAN_IF:-wlp0s20f3}
+MON_IF=${MON_IF:-mon0}     # monitor interface created by config/start_ap.sh
+CAPTURE=${CAPTURE:-1}      # CAPTURE=0 turns the frame capture off
 
 if [ -z "$SESSION_DIR" ]; then
   echo "Usage: $0 <session_dir> [duration_sec]"
@@ -20,6 +22,38 @@ else
 fi
 
 mkdir -p "$SESSION_DIR"
+
+# Frame capture for the channel busy fraction. PDF 2.2: survey dump is empty on this card,
+# so airtime is computed from the number and size of captured frames instead.
+# airtime_capture.txt: one line per second "epoch_s frames bytes airtime_us busy_pct", then a summary line.
+CAP_PID=""
+if [ "$CAPTURE" = 1 ] && ip link show "$MON_IF" >/dev/null 2>&1 && sudo -v; then
+  echo "# epoch_s frames bytes airtime_us busy_pct   (airtime_us = sum of wlan_radio.duration from tshark on $MON_IF)" > "$SESSION_DIR/airtime_capture.txt"
+  sudo tshark -i "$MON_IF" -l -T fields -E separator=' ' \
+       -e frame.time_epoch -e frame.len -e wlan_radio.duration 2>/dev/null |
+  awk '{ s = int($1)
+         if (!(s in n)) order[++k] = s
+         n[s]++; b[s] += $2
+         if ($3 != "") a[s] += $3; else u++ }
+       END {
+         for (i = 1; i <= k; i++) { s = order[i]; printf "%d %d %d %d %.1f\n", s, n[s], b[s], a[s], a[s]/1e4; T += a[s]; F += n[s] }
+         if (k > 0) printf "# summary: seconds=%d frames=%d frames_without_duration=%d busy_pct=%.1f\n", k, F, u+0, T/(k*1e4)
+         else print "# summary: no frames captured" }' >> "$SESSION_DIR/airtime_capture.txt" &
+  CAP_PID=$!
+elif [ "$CAPTURE" = 1 ]; then
+  echo "WARNING: $MON_IF not found, no frame capture (Busy % = NA)"
+fi
+
+stop_capture() {
+  if [ -n "$CAP_PID" ]; then
+    sudo pkill -TERM -f "tshark -i $MON_IF" 2>/dev/null
+    wait "$CAP_PID" 2>/dev/null
+    grep "^# summary" "$SESSION_DIR/airtime_capture.txt" | sed 's/^# summary:/Busy from captured frames:/'
+    CAP_PID=""
+  fi
+}
+trap 'stop_capture; exit 130' INT TERM
+
 for ((i=1; i<=DURATION; i++)); do
   TS=$(date +"%Y-%m-%dT%H:%M:%S.%3N")
   {
@@ -39,3 +73,5 @@ for ((i=1; i<=DURATION; i++)); do
 
   sleep 1
 done
+
+stop_capture

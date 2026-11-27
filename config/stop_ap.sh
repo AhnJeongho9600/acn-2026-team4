@@ -10,6 +10,7 @@ WLAN_IF=${1:-${WLAN_IF:-wlp0s20f3}} # WiFi AP interface
 WAN_IF=${2:-${WAN_IF:-usb0}}       # Upstream usb tethering interface
 
 echo "[1/5] Stopping hostapd and dnsmasq..."
+sudo iw dev "${MON_IF:-mon0}" del 2>/dev/null || true
 if [ -f /tmp/hostapd_ap.pid ]; then
     sudo kill "$(cat /tmp/hostapd_ap.pid)" 2>/dev/null || true
     rm -f /tmp/hostapd_ap.pid

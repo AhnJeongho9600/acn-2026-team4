@@ -43,5 +43,8 @@ sudo pkill hostapd 2>/dev/null || true
 # Generate runtime configuration for hostapd with dynamic interface
 sed "s/^interface=.*/interface=$WLAN_IF/" "$BASE_DIR/config/hostapd.conf" > /tmp/hostapd_ap.conf
 sudo hostapd -B /tmp/hostapd_ap.conf -P /tmp/hostapd_ap.pid
+# Monitor interface for frame capture (scripts/logger.sh computes the busy fraction from it, PDF 2.2)
+sudo iw dev "$WLAN_IF" interface add "${MON_IF:-mon0}" type monitor 2>/dev/null || true
+sudo ip link set "${MON_IF:-mon0}" up 2>/dev/null || true
 
 echo "[5/5] 5-layer AP active on $WLAN_IF (IP: 192.168.50.1, WAN: $WAN_IF)"

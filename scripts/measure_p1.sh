@@ -10,7 +10,7 @@ if [ -f "$BASE_DIR/config/general.conf" ]; then
 fi
 
 WLAN_IF=${1:-${WLAN_IF:-wlp0s20f3}} # WiFi AP interface
-CLIENT_B_MAC=${1:-${CLIENT_B_MAC:-10:63:c8:c1:5a:81}} # WiFi AP interface
+CLIENT_B_MAC=${2:-${CLIENT_B_MAC:-10:63:c8:c1:5a:81}} # MAC address of client B
 
 N=5
 vals=()
