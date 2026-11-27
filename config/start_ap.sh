@@ -31,7 +31,8 @@ echo "[3/5] Starting iperf3 and HTTP servers..."
 # Kill existing iperf3
 pkill iperf3 2>/dev/null || true
 # Run iperf3 server in daemon (=background)
-iperf3 -s -D
+iperf3 -s -p 5201 -D
+iperf3 -s -p 5202 -D
 mkdir -p /tmp/http_root
 # Kill existing (python) http webserver
 pkill -f "http.server 8080" 2>/dev/null || true
